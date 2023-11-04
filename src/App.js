@@ -5,7 +5,8 @@ function App() {
   return (
     <div id='body-container'>
       <div id='body'>
-        <Hoverable iD='testBox' img='none'/>
+        <Hoverable iD={'testBox'} img={'none'} />
+        <Hoverable iD={'this'} img={'none'} />
       </div>
     </div>
   );
