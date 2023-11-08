@@ -1,10 +1,12 @@
 import './App.css';
 import Hoverable from './components/Hoverable';
 import background from './assets/photo12.jpg'
-import { PDFDownloadLink } from '@react-pdf/renderer';
+import { Document, Page, pdfjs, W } from 'react-pdf';
 import resume from './assets/charlestyraresume.pdf'
+import { useEffect } from 'react';
 
 function App() {
+  
   return (
     <div id='totalframe'>
       <div id='body-container'>
@@ -14,10 +16,9 @@ function App() {
           <Hoverable iD={'this'} img={'none'} />
         </div>
       </div>
-      <iframe src={resume} width='100%' height='500px'/>
-      <PDFDownloadLink> 
 
-      </PDFDownloadLink>
+      {/* PDF download link */}
+      {/* <Document file={resume}/> */}
       {/* <a href='./assets/charlestyraresume.pdf' download='CharlesTyraResume'>Test download</a> */}
     </div>
   );
