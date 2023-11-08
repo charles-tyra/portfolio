@@ -13,7 +13,7 @@ function Hoverable({iD, iMG, textBox}) {
             </div>
             : <div class="hoverable">CLICKED DIV</div>
          }
-         {textBox ? <div className="hoverable-addedText">{textBox}</div> : null}
+         {textBox ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
       </div>
    )
 }

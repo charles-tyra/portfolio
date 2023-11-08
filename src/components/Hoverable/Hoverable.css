@@ -1,9 +1,14 @@
-#testBox {
+#resume-div {
    margin-top: calc(100% / 64);
    margin-left: calc(100% / 64);
 
    width: calc(3200% / 64);
    height: calc(1600% / 64);
+}
+
+#resume {
+   top: 20px;
+   left: 40px;
 }
 
 .hoverable {
@@ -14,14 +19,21 @@
 
 .hoverable-container {
    position: absolute;
-   border: 1px solid black;
    background-color: white;
+   box-shadow: 1px 1px 2px 1px rgb(163, 171, 171);
+
+   overflow: hidden;
 }
 
 .hoverable-img {
-   height: calc(1600% / 64 * 100%vh);
+   object-fit: contain;
+   width: 100%;
 }
 
 .hoverable-addedText {
    position: absolute;
+   cursor: pointer;
+
+   background-color: white;
+   border: 1px solid black;
 }
