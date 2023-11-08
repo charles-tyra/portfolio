@@ -68,12 +68,13 @@ table {
 #body{
   display: flex;
   position: absolute;
+  overflow: hidden;
 
   aspect-ratio: 16/9;
   height: auto;
-  width: 100%;
-  overflow: hidden;
-
+  width: calc(6370% / 64);
+  left: calc(10% / 64);
+  
   border: 1px solid black;
 }
 
