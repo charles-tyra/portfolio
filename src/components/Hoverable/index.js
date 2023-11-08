@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import ResumeBox from "./ResumeBox";
 import './Hoverable.css';
 
 function Hoverable({iD, iMG, textBox}) {
@@ -6,12 +7,19 @@ function Hoverable({iD, iMG, textBox}) {
 
    return (
       <div id={iD} className="hoverable-container" onClick={() => setClicked(!clicked)}>
-         {clicked
+         {clicked && iD !== 'resume-div'
             ? 
             <div className='hoverable'>
                <img src={iMG} className="hoverable-img" />
             </div>
             : <div class="hoverable"></div>
+         }
+         { clicked && iD === 'resume-div'
+            ?
+            <div className='hoverable'>
+               <img src={iMG} className="hoverable-img" />
+            </div>
+            : <ResumeBox />
          }
          {textBox && clicked ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
       </div>

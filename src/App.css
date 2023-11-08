@@ -44,10 +44,12 @@ table {
   border-spacing: 0;
 }
 /* ^ Reset CSS */
+
 #background-container {
   display: flex;
   align-items: center;
 }
+
 #background-img {
   position: absolute;
   object-fit: contain;
@@ -75,9 +77,22 @@ table {
   width: calc(6370% / 64);
   left: calc(10% / 64);
   
-  border: 1px solid black;
+  border-bottom: 1px solid rgb(213, 203, 203);
+  border-right: 1px solid rgb(213, 203, 203);
 }
 
+#charles-tyra {
+  position: absolute;
+  background-color: white;
+  text-align: end;
+
+  padding: 2px 4px;
+  width: calc(1600% / 64);
+  height: calc();
+
+  top: calc(100% / 36);
+  right: calc(100% / 64);
+}
 
 #totalframe {
   display: flex;

@@ -1,9 +1,9 @@
 #resume-div {
-   margin-top: calc(100% / 64);
+   margin-top: calc(800% / 36);
    margin-left: calc(100% / 64);
 
-   width: calc(3200% / 64);
-   height: calc(1600% / 64);
+   height: calc(2400% / 36);
+   width: calc(2000% / 64);
 }
 
 #resume {
@@ -19,7 +19,6 @@
 
 .hoverable-container {
    position: absolute;
-   border: 1px solid black;
    background-color: white;
    /* box-shadow: 0px 0px 1px 1px rgb(163, 171, 171); */
 
@@ -28,12 +27,14 @@
 
 .hoverable-img {
    object-fit: contain;
-   width: 100%;
+   height: 100%;
 }
 
 .hoverable-addedText {
    position: absolute;
    cursor: pointer;
+   font-size: 100%;
+   padding: 0px 2px;
 
    background-color: white;
    border: 1px solid black;

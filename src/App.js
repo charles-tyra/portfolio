@@ -1,9 +1,7 @@
 import './App.css';
-import { Document, Page, pdfjs } from 'react-pdf';
 
 import Hoverable from './components/Hoverable';
 import background from './assets/photo12.jpg'
-import resume from './assets/charlestyraresume.pdf'
 import resumeImg from './assets/photo23.jpg';
 
 function App() {
@@ -15,7 +13,11 @@ function App() {
           <div id='background-container'>
             <img id='background-img' src={background} />
           </div>
+          <div id='charles-tyra'>Charles Tyra</div>
           <Hoverable iD={'resume-div'} iMG={resumeImg} textBox={'resume'}/>
+          <div id='philosphy'>
+            This is my project philosophy
+          </div>
         </div>
       </div>
 
