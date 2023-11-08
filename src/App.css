@@ -45,9 +45,9 @@ table {
 }
 /* ^ Reset CSS */
 #background-img {
+  position: absolute;
   object-fit: contain;
-  overflow: hidden;
-
+  
   width: 100%;
 }
 
@@ -62,14 +62,13 @@ table {
 }
 
 #body{
-
+  position: absolute;
   aspect-ratio: 16/9;
   height: auto;
   width: 100%;
-}
+  overflow: hidden;
 
-img {
-  position: absolute;
+  border: 1px solid black;
 }
 
 

@@ -12,7 +12,7 @@ function App() {
     <div id='totalframe'>
       <div id='body-container'>
         <div id='body'>
-          <img id='background-img' src={background} />
+        <img id='background-img' src={background} />
           <Hoverable iD={'resume-div'} iMG={resumeImg} textBox={'resume'}/>
         </div>
       </div>
