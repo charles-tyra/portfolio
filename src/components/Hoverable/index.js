@@ -8,7 +8,7 @@ function Hoverable({iD, iMG}) {
       <div id={iD} className="hoverable" onClick={() => setClicked(!clicked)}>
          {clicked
             ? <div>xxx</div>
-            : <div class="testHoverable">CLICKED DIV</div>
+            : <div className="testHoverable">CLICKED DIV</div>
          }
       </div>
    )
