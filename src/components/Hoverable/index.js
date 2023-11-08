@@ -11,9 +11,9 @@ function Hoverable({iD, iMG, textBox}) {
             <div className='hoverable'>
                <img src={iMG} className="hoverable-img" />
             </div>
-            : <div class="hoverable">CLICKED DIV</div>
+            : <div class="hoverable"></div>
          }
-         {textBox ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
+         {textBox && clicked ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
       </div>
    )
 }
