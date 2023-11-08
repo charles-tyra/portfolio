@@ -44,6 +44,10 @@ table {
   border-spacing: 0;
 }
 /* ^ Reset CSS */
+#background-container {
+  display: flex;
+  align-items: center;
+}
 #background-img {
   position: absolute;
   object-fit: contain;
@@ -62,7 +66,9 @@ table {
 }
 
 #body{
+  display: flex;
   position: absolute;
+
   aspect-ratio: 16/9;
   height: auto;
   width: 100%;
