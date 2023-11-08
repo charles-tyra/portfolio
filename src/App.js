@@ -1,9 +1,10 @@
 import './App.css';
+import { Document, Page, pdfjs } from 'react-pdf';
+
 import Hoverable from './components/Hoverable';
 import background from './assets/photo12.jpg'
-import { Document, Page, pdfjs, W } from 'react-pdf';
 import resume from './assets/charlestyraresume.pdf'
-import { useEffect } from 'react';
+import resumeImg from './assets/photo23.jpg';
 
 function App() {
   
@@ -12,8 +13,7 @@ function App() {
       <div id='body-container'>
         <img id='backgroundimg' src={background} />
         <div id='body'>
-          <Hoverable iD={'testBox'} img={'none'} />
-          <Hoverable iD={'this'} img={'none'} />
+          <Hoverable iD={'testBox'} iMG={resumeImg} textBox={'true'}/>
         </div>
       </div>
 

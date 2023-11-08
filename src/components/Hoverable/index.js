@@ -1,15 +1,19 @@
 import React, {useState} from "react";
 import './Hoverable.css';
 
-function Hoverable({iD, iMG}) {
+function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
 
    return (
-      <div id={iD} className="hoverable" onClick={() => setClicked(!clicked)}>
+      <div id={iD} className="hoverable-container" onClick={() => setClicked(!clicked)}>
          {clicked
-            ? <div>xxx</div>
-            : <div className="testHoverable">CLICKED DIV</div>
+            ? 
+            <div className='hoverable'>
+               <img src={iMG} className="hoverable-img" />
+            </div>
+            : <div class="hoverable">CLICKED DIV</div>
          }
+         {textBox ? <div className="hoverable-addedText">{textBox}</div> : null}
       </div>
    )
 }

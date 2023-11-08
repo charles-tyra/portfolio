@@ -3,10 +3,25 @@
    margin-left: calc(100% / 64);
 
    width: calc(3200% / 64);
+   height: calc(1600% / 64);
 }
 
 .hoverable {
    position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+.hoverable-container {
+   position: absolute;
    border: 1px solid black;
    background-color: white;
+}
+
+.hoverable-img {
+   height: calc(1600% / 64 * 100%vh);
+}
+
+.hoverable-addedText {
+   position: absolute;
 }
