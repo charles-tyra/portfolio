@@ -6,22 +6,21 @@ function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
 
    const ClickedDiv = () => {
-      console.log(iD === 'resume-div')
+      let ResumeOrDiv = null;
+
       if(iD === 'resume-div') {
-         console.log('resume div')
-
-         return (
-            <ResumeBox />
-         )
+         ResumeOrDiv = <ResumeBox />;
       } else {
-         console.log('other div')
-
-         return (
-            <div className='hoverable'>
-               test text
-            </div>
-         )
+         ResumeOrDiv = 
+         <div className='hoverable'>
+            test text
+         </div>;
+         
       }
+
+      return (
+         ResumeOrDiv
+      )
    }
 
    return (
