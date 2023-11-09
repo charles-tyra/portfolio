@@ -15,6 +15,7 @@ function App() {
           </div>
           <div id='charles-tyra'>Charles Tyra</div>
           <Hoverable iD={'resume-div'} iMG={resumeImg} textBox={'resume'}/>
+          <Hoverable iD={'projects-div'} iMG ={resumeImg} textBox={'this'}/>
           <div id='philosphy'>
             This is my project philosophy
           </div>

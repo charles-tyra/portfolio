@@ -5,23 +5,43 @@ import './Hoverable.css';
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
 
+   const ClickedDiv = () => {
+      console.log(iD === 'resume-div')
+      if(iD === 'resume-div') {
+         console.log('resume div')
+
+         return (
+            <ResumeBox />
+         )
+      } else {
+         console.log('other div')
+
+         return (
+            <div className='hoverable'>
+               test text
+            </div>
+         )
+      }
+   }
+
    return (
       <div id={iD} className="hoverable-container" onClick={() => setClicked(!clicked)}>
-         {clicked && iD !== 'resume-div'
+         {clicked
             ? 
-            <div className='hoverable'>
+               <ClickedDiv />
+            : 
+            <div className="hoverable">
                <img src={iMG} className="hoverable-img" />
             </div>
-            : <div class="hoverable"></div>
          }
-         { clicked && iD === 'resume-div'
+         {/* { clicked && iD === 'resume-div'
             ?
             <div className='hoverable'>
                <img src={iMG} className="hoverable-img" />
             </div>
             : <ResumeBox />
-         }
-         {textBox && clicked ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
+         } */}
+         {textBox && clicked ? null : <div id={textBox} className="hoverable-addedText">{textBox}</div>}
       </div>
    )
 }
