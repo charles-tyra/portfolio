@@ -13,9 +13,18 @@ function App() {
           <div id='background-container'>
             <img id='background-img' src={background} />
           </div>
-          <div id='charles-tyra'>Charles Tyra</div>
+          <div id='charles-tyra'>
+            <div id='charles-tyra-links'>
+              <a href='https://www.linkedin.com/in/charlesttyra-ny'>LinkedIn</a>
+              <div className='vertical-line' />
+              <a href='https://github.com/charles-tyra'>Github</a>
+              <div className='vertical-line' />
+              <a href="mailto:charlesttyra@gmail.com">Contact</a>
+            </div>
+            Charles Tyra
+          </div>
           <Hoverable iD={'resume-div'} iMG={resumeImg} textBox={'resume'}/>
-          <Hoverable iD={'projects-div'} iMG ={resumeImg} textBox={'this'}/>
+          {/* <Hoverable iD={'projects-div'} iMG ={resumeImg} textBox={'this'}/> */}
           <div id='philosphy'>
             This is my project philosophy
           </div>

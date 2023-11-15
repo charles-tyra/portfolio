@@ -83,15 +83,35 @@ table {
 
 #charles-tyra {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
   text-align: end;
 
   padding: 2px 4px;
   width: calc(1600% / 64);
   height: calc();
-
   top: calc(100% / 36);
   right: calc(100% / 64);
+
+  font-size: 14px;
+  color: rgb(42, 41, 41);
+}
+
+#charles-tyra-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+
+  width: 60%;
+  font-size: 13px;
+}
+
+#charles-tyra-links > a {
+  text-decoration: none;
+  color: rgb(119, 114, 114);
 }
 
 #totalframe {
@@ -100,4 +120,10 @@ table {
   align-items: center;
 
   padding: 10px;
+}
+
+.vertical-line {
+  height: 10px;
+  /* border-left: 1px solid rgb(231, 226, 226); */
+  border-left: 1px solid rgb(216, 211, 211);
 }
