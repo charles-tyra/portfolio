@@ -114,6 +114,22 @@ table {
   color: rgb(119, 114, 114);
 }
 
+#philosophy {
+  position: absolute;
+  z-index: 2;
+  bottom: calc(100% / 36);
+  right: calc(100% / 64);
+  width: calc(3200% / 64);
+
+  padding-top: 3px;
+  padding-left: 3px;
+
+  font-size: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.2;
+  background-color: white;
+}
+
 #totalframe {
   display: flex;
   justify-content: center;

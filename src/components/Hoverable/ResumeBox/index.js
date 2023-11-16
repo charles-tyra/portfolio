@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Document, Page, pdfjs } from 'react-pdf';
+import { Document, Page, pdfjs} from 'react-pdf';
 
 import resume from '../../../assets/charlestyraresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';

@@ -12,7 +12,7 @@ function Hoverable({iD, iMG, textBox}) {
          ResumeOrDiv = <ResumeBox />;
       } else {
          ResumeOrDiv = 
-         <div className='hoverable'>
+         <div className='hoverable-container'>
             test text
          </div>;
          
