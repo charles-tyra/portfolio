@@ -129,22 +129,6 @@ table {
   object-fit: contain;
 }
 
-#philosophy {
-  position: absolute;
-  z-index: 2;
-  bottom: calc(100% / 36);
-  right: calc(100% / 64);
-  width: calc(3200% / 64);
-
-  padding: 3px;
-
-  font-size: 13px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.2;
-  border: 1px solid black;
-  /* background-color: white; */
-}
-
 #totalframe {
   display: flex;
   justify-content: center;

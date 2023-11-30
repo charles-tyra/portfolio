@@ -4,9 +4,9 @@ import { Document, Page, pdfjs} from 'react-pdf';
 
 import resume from '../../../assets/charlestyraresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
-import './ResumeBox.css';
+import './ResumeDiv.css';
 
-function ResumeBox() {
+function ResumeDiv() {
    let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 20 / 64);
 
    //Sets worker for PDF
@@ -29,4 +29,4 @@ function ResumeBox() {
    )
 }
 
-export default ResumeBox;
+export default ResumeDiv;
