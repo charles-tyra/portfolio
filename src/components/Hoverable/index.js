@@ -6,8 +6,12 @@ import PhilosophyDiv from "./PhilosophyDiv";
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
 
+   const changeDiv = () => {
+      setClicked(!clicked);
+   }
+
    return (
-      <div id={iD} className="hoverable-container" onClick={() => setClicked(!clicked)}>
+      <div id={iD} className="hoverable-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
             ? 
                <ResumeDiv />
@@ -16,9 +20,9 @@ function Hoverable({iD, iMG, textBox}) {
          }
          {clicked && iD === 'philosophy-div'
             ?
-            <PhilosophyDiv />
+               <PhilosophyDiv />
             :
-            null
+               null
          }
          {!clicked
             ?

@@ -7,7 +7,7 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import './ResumeDiv.css';
 
 function ResumeDiv() {
-   let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 20 / 64);
+   let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 18 / 64);
 
    //Sets worker for PDF
    pdfjs.GlobalWorkerOptions.workerSrc = new URL(

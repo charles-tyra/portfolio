@@ -19,8 +19,7 @@ function PhilosophyDiv() {
          I hope you find this detail, purpose, creativity, and thought within my projects.
          <br />
          Charles Tyra
-      </div>
-      
+      </div>    
    )
 }
 
