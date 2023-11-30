@@ -75,6 +75,7 @@ table {
   aspect-ratio: 16/9;
   height: auto;
   width: calc(6370% / 64);
+  max-width: 1920px;
   left: calc(10% / 64);
   
   border-bottom: 1px solid rgb(213, 203, 203);
