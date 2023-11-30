@@ -3,6 +3,7 @@ import './App.css';
 import Hoverable from './components/Hoverable';
 import background from './assets/photo12.jpg'
 import resumeImg from './assets/photo23.jpg';
+import linksImg from './assets/photo5.jpg';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
           </div>
           <div id='charles-tyra'>
             <div id='charles-tyra-links'>
+              {/* <img id='links-img' src={linksImg}/> */}
               <a href='https://www.linkedin.com/in/charlesttyra-ny'>LinkedIn</a>
               <div className='vertical-line' />
               <a href='https://github.com/charles-tyra'>Github</a>

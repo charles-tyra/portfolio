@@ -89,7 +89,8 @@ table {
   background-color: white;
   text-align: end;
 
-  padding: 2px 4px;
+  padding: 2px;
+  padding-right: 12px;
   width: calc(1600% / 64);
   height: calc();
   top: calc(100% / 36);
@@ -102,16 +103,25 @@ table {
 #charles-tyra-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 5px;
+  justify-content: space-around;
 
-  width: 60%;
+  padding: 2px 0px;
+  width: 65%;
+
+  border: 1px solid black;
   font-size: 13px;
 }
 
 #charles-tyra-links > a {
   text-decoration: none;
   color: rgb(119, 114, 114);
+}
+
+#links-img {
+  position: absolute;
+
+  overflow: hidden;
+  object-fit: contain;
 }
 
 #philosophy {
@@ -140,6 +150,8 @@ table {
 
 .vertical-line {
   height: 10px;
+  margin-top: 1.5px;
   /* border-left: 1px solid rgb(231, 226, 226); */
-  border-left: 1px solid rgb(216, 211, 211);
+  border-left: 1px solid black;
 }
+
