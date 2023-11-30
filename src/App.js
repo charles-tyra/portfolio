@@ -1,9 +1,9 @@
 import './App.css';
 
 import Hoverable from './components/Hoverable';
-import background from './assets/photo12.jpg'
-import resumeImg from './assets/photo23.jpg';
-import linksImg from './assets/photo5.jpg';
+import background from './assets/photo12.jpg';
+// import resumeImg from './assets/photo23.jpg';
+// import linksImg from './assets/photo5.jpg';
 
 function App() {
   
@@ -25,8 +25,8 @@ function App() {
             </div>
             Charles Tyra
           </div>
-          <Hoverable iD={'resume-div'} iMG={resumeImg} textBox={'resume'}/>
-          <Hoverable iD={'projects-div'} iMG ={resumeImg} textBox={'this'}/>
+          <Hoverable iD={'resume-div'} textBox={'resume'} /> {/*corresponding image: iMG={resumeImg} */}
+          <Hoverable iD={'projects-div'} textBox={'this'}/> {/*corresponding image: iMG={resumeImg} */}
           <div id='philosophy'>
             In school I practiced art. I enjoyed the open ended quality, the endless
             thought that you could put into each piece. How it pushed your brain to

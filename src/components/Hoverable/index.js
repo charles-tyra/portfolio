@@ -33,7 +33,7 @@ function Hoverable({iD, iMG, textBox}) {
          {!clicked
             ?
                <div className="hoverable">
-                  <img src={iMG} className="hoverable-img" />
+                  {/* <img src={iMG} className="hoverable-img" /> */}
                </div>
             :
                null
