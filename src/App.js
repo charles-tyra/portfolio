@@ -2,10 +2,22 @@ import './App.css';
 
 import Hoverable from './components/Hoverable';
 import background from './assets/photo12.jpg';
-// import resumeImg from './assets/photo23.jpg';
-// import linksImg from './assets/photo5.jpg';
+import linksImg from './assets/photo5.jpg';
+import philosophyImg from './assets/photo6.jpg';
+import resumeImg from './assets/photo23.jpg';
+import projectsImg from './assets/photo27.jpg';
+import linesUnused from './assets/photo17.jpg';
+import fuzzyUnused from './assets/photo7.jpg';
 
 function App() {
+
+  const backgroundImageObject = {
+    DEFAULT: background,
+    RESUME: resumeImg,
+    LINKS: linksImg,
+    PROJECTS: projectsImg,
+    PHILOSOPHY: philosophyImg
+  };
   
   return (
     <div id='totalframe'>
@@ -25,7 +37,7 @@ function App() {
             </div>
             Charles Tyra
           </div>
-          <Hoverable iD={'resume-div'} textBox={'resume'} /> {/*corresponding image: iMG={resumeImg} */}
+          <Hoverable iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
           <Hoverable iD={'projects-div'} textBox={'projects'}/> {/*corresponding image: iMG={resumeImg} */}
           <Hoverable iD={'philosophy-div'} textBox={'philosophy'} />
         </div>
