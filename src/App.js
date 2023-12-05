@@ -37,8 +37,10 @@ function App() {
           <div id='ct-background-right' />
           <div id='ct-background-bottom' />
 
-          <div id='statement'>
-            This portfolio is an exercise in restrictive design on a 64x36 grid.
+          <div id='statement-container'>
+            <div id='statement'>
+              This portfolio is an exercise in restrictive design on a 64x36 grid.
+            </div>
           </div>
 
           <div id='charles-tyra'>

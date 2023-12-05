@@ -179,15 +179,7 @@ table {
   object-fit: contain;
 }
 
-#totalframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 10px;
-}
-
-#statement {
+#statement-container {
   position: absolute;
   display: flex;
   align-items: center;
@@ -198,11 +190,23 @@ table {
   width: calc(600% / 36);
   height: calc(200% / 64);
 
-  padding: 4px;
   border: 1px solid black;
 
   font-size: 11px;
   line-height: 1.1;
+}
+
+#statement {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#totalframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
 }
 
 .vertical-line {
