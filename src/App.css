@@ -188,7 +188,21 @@ table {
 }
 
 #statement {
-  width: 400px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: calc(100% / 36);
+  left: calc(2500% / 64);
+  width: calc(600% / 36);
+  height: calc(200% / 64);
+
+  padding: 4px;
+  border: 1px solid black;
+
+  font-size: 11px;
+  line-height: 1.1;
 }
 
 .vertical-line {

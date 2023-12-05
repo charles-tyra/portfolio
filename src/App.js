@@ -38,10 +38,7 @@ function App() {
           <div id='ct-background-bottom' />
 
           <div id='statement'>
-            This portfolio is an exercise in fixed-pixel design. Built on a grid system, I've forced myself
-            build a functioning composition that works as a painting does, drawing eyes from piece to piece
-            - without overwhelming a single sense and overpowering the next. This page is scalable on a 16:9 ratio,
-            but is optimized for 1920 x 1280 resolution.
+            This portfolio is an exercise in restrictive design on a 64x36 grid.
           </div>
 
           <div id='charles-tyra'>
