@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from "react";
-
 import './PhilosophyDiv.css';
 
 function PhilosophyDiv() {
@@ -13,10 +11,10 @@ function PhilosophyDiv() {
          analyze each. Experience in the restaurant industry, with it's pace and
          individual purpose, brought me an appreciation of real world application
          - combining my experience and natural curiousity, to allow myself to apply
-         my creative thoughts in a different approach.
+         these creative thoughts in a more succinct approach.
          <br />
          <br />
-         I hope you find this detail, purpose, creativity, and thought within my projects.
+         I hope you find my focus on detail, purpose, and thought within each of my projects.
       </div>    
    )
 }
