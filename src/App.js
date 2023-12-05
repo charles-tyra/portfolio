@@ -1,6 +1,7 @@
 import './App.css';
 
 import Hoverable from './components/Hoverable';
+
 import background from './assets/photo12.jpg';
 import linksImg from './assets/photo5.jpg';
 import philosophyImg from './assets/photo6.jpg';
@@ -10,7 +11,8 @@ import linesUnused from './assets/photo17.jpg';
 import fuzzyUnused from './assets/photo7.jpg';
 
 function App() {
-
+  
+  //Change RESUME
   const backgroundImageObject = {
     DEFAULT: background,
     RESUME: resumeImg,
@@ -18,13 +20,15 @@ function App() {
     PROJECTS: projectsImg,
     PHILOSOPHY: philosophyImg
   };
+
+  const currentBackground = backgroundImageObject.DEFAULT;
   
   return (
     <div id='totalframe'>
       <div id='body-container'>
         <div id='body'>
           <div id='background-container'>
-            <img id='background-img' src={background} />
+            <img id='background-img' src={currentBackground} />
           </div>
           <div id='charles-tyra'>
             <div id='charles-tyra-links'>

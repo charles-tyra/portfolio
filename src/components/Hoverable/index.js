@@ -1,7 +1,9 @@
 import React, {useState} from "react";
-import ResumeDiv from "./ResumeDiv";
 import './Hoverable.css';
+
+import ResumeDiv from "./ResumeDiv";
 import PhilosophyDiv from "./PhilosophyDiv";
+import ProjectsDiv from "./ProjectsDiv";
 
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
@@ -21,6 +23,12 @@ function Hoverable({iD, iMG, textBox}) {
          {clicked && iD === 'philosophy-div'
             ?
                <PhilosophyDiv />
+            :
+               null
+         }
+         {clicked && iD === 'projects-div'
+            ?
+               <ProjectsDiv />
             :
                null
          }
