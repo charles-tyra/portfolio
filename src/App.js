@@ -30,6 +30,18 @@ function App() {
           <div id='background-container'>
             <img id='background-img' src={currentBackground} />
           </div>
+
+          {/* Setting up background color for transparent link area */}
+          <div id='ct-background-left' />
+          <div id='ct-background-top' />
+          <div id='ct-background-right' />
+          <div id='ct-background-bottom' />
+
+          <div id='statement'>
+            This portfolio is an exercise in fixed-pixel design. Built on a grid system, I've forced myself
+            
+          </div>
+
           <div id='charles-tyra'>
             <div id='charles-tyra-links'>
               {/* <img id='links-img' src={linksImg}/> */}
