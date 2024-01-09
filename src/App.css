@@ -201,6 +201,9 @@ table {
   
   background-color: white;
   border: 1px solid black;
+  font-family: kepler-std, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #totalframe {
