@@ -20,3 +20,11 @@
    color: black;
    font-size: 16px;
 }
+
+#projects-div {
+   margin-top: calc(500% / 36);
+   margin-left: calc(2300% / 64);
+
+   width: calc(1400% / 64);
+   height: calc(1000% / 36);
+}

@@ -50,14 +50,6 @@
    left: 15px;
 }
 
-#projects-div {
-   margin-top: calc(500% / 36);
-   margin-left: calc(3500% / 64);
-
-   width: calc(1800% / 64);
-   height: calc(1400% / 36);
-}
-
 #projects {
    top: 60px;
    left: 110px;
