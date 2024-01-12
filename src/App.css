@@ -102,7 +102,7 @@ table {
   color: rgb(42, 41, 41);
 
   border: 1px solid black;
-font-family: "mr-eaves-modern", sans-serif;
+  font-family: "mr-eaves-modern", sans-serif;
   font-weight: 300;
   font-style: normal;
   /* background-color: white; */
@@ -123,7 +123,7 @@ font-family: "mr-eaves-modern", sans-serif;
 
 #charles-tyra-links > a {
   text-decoration: none;
-  color: rgb(119, 114, 114);
+  color: rgb(83, 80, 80);
 }
 
 #ct-background-left {
