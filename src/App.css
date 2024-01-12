@@ -102,6 +102,9 @@ table {
   color: rgb(42, 41, 41);
 
   border: 1px solid black;
+font-family: "mr-eaves-modern", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   /* background-color: white; */
 }
 
@@ -217,7 +220,7 @@ table {
 .vertical-line {
   height: 10px;
   margin-top: 1.5px;
-  /* border-left: 1px solid rgb(231, 226, 226); */
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(231, 226, 226);
+  /* border-left: 1px solid black; */
 }
 
