@@ -10,11 +10,11 @@ function ProjectsDiv() {
    return (
       <div id='project-container'>
          <img id='tripit-img' src={tripIt}/>
-         <br/>
+         {/* <br/>
 
          <a id='tripit-img-link' href="https://trip-it.onrender.com">
             Trip It
-         </a>
+         </a> */}
       </div>
    )
 }

@@ -10,8 +10,7 @@
 }
 
 #tripit-img {
-   width: 80%;
-   object-fit: contain;
+   height: 100%;
    border: 1px solid black;
 }
 
