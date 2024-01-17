@@ -194,16 +194,16 @@ table {
   height: calc(200% / 64);
 
   border: 1px solid black;
-
-  font-size: 11px;
-  line-height: 1.1;
 }
 
 #statement {
-  padding: 1px;
-  
   background-color: white;
+
+  padding: 2px;
   border: 1px solid black;
+
+  font-size: 10.6px;
+  line-height: 1.1;
   font-family: kepler-std, serif;
   font-weight: 400;
   font-style: normal;
