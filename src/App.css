@@ -122,7 +122,11 @@ table {
 
 #charles-tyra-links > a {
   text-decoration: none;
-  color: rgb(83, 80, 80);
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11px;
+  /* color: rgb(83, 80, 80); */
+  color: black;
 }
 
 #ct-background-left {

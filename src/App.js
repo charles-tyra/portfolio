@@ -46,11 +46,11 @@ function App() {
           <div id='charles-tyra'>
             <div id='charles-tyra-links'>
               {/* <img id='links-img' src={linksImg}/> */}
-              <a href='https://www.linkedin.com/in/charlesttyra-ny'>LinkedIn</a>
+              <a href='https://www.linkedin.com/in/charlesttyra-ny'>linkedIn</a>
               <div className='vertical-line' />
-              <a href='https://github.com/charles-tyra'>Github</a>
+              <a href='https://github.com/charles-tyra'>github</a>
               <div className='vertical-line' />
-              <a href="mailto:charlesttyra@gmail.com">Contact</a>
+              <a href="mailto:charlesttyra@gmail.com">contact</a>
             </div>
             Charles Tyra
           </div>
