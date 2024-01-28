@@ -5,14 +5,16 @@ import tripIt from '../../../../assets/tripItSplashPage.png';
 
 function TripItDiv() {
    return (
-      <div id='project-container'>
-         <img id='tripit-img' src={tripIt} />
-         {/* <br/>
+      <>
+         <div id='project-container'>
+            <img id='tripit-img' src={tripIt} />
+            {/* <br/>
 
-         <a id='tripit-img-link' href="https://trip-it.onrender.com">
+            <a id='tripit-img-link' href="https://trip-it.onrender.com">
             Trip It
-         </a> */}
-      </div>
+            </a> */}
+         </div>
+      </>
    )
 }
 

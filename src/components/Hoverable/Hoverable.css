@@ -36,8 +36,6 @@
    height: calc(600% / 36);
    width: calc(2200% / 64);
 
-   font-size: 13px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    line-height: 1.2;
    border: 1px solid black;
    /* background-color: white; */
