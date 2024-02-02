@@ -9,7 +9,7 @@ function ProjectsDiv() {
    let [project, setProject] = useState('TRIPIT');
    
    return (
-      <TripItDiv />
+      <SaharaDiv />
    )
 }
 
