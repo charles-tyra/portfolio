@@ -188,7 +188,7 @@ table {
   position: absolute;
 
   margin-top: calc(500% / 36);
-  margin-left: calc(5100% / 64);
+  margin-left: calc(3500% / 64);
 
   width: calc(1400% / 64);
   height: calc(1000% / 36);
@@ -201,7 +201,7 @@ table {
   position: absolute;
 
   margin-top: calc(500% / 36);
-  margin-left: calc(3700% / 64);
+  margin-left: calc(4900% / 64);
 
   width: calc(1400% / 64);
   height: calc(1000% / 36);
