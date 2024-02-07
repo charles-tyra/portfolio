@@ -60,6 +60,7 @@ function App() {
 
           <div id='placeholder2' />
           <div id='placeholder3' />
+          <div id='placeholder4' />
         </div>
       </div>
 
