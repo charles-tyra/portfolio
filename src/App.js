@@ -57,10 +57,10 @@ function App() {
           <Hoverable iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
           <Hoverable iD={'projects-div'} textBox={'projects'}/> {/*corresponding image: iMG={resumeImg} */}
           <Hoverable iD={'philosophy-div'} textBox={'philosophy'} />
-          <Hoverable iD={'description-div'} textBox={'more info'} />
+          <Hoverable iD={'description-div'} textBox={'project-info'} />
 
-          <div id='placeholder2' />
-          <div id='placeholder3' />
+          {/* <div id='placeholder2' />
+          <div id='placeholder3' /> */}
         </div>
       </div>
 
