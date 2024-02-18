@@ -13,6 +13,9 @@ function ProjectsDiv() {
       <>
          <Hoverable iD={'sahara-div'} textBox={'projects'} />
          <Hoverable iD={'trip-it-div'} textBox={'projects'} />
+
+
+         <Hoverable iD={'description-div'} textBox={'project-info'} />
       </>
    )
 }
