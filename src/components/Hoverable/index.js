@@ -4,6 +4,7 @@ import './Hoverable.css';
 import ResumeDiv from "./ResumeDiv";
 import PhilosophyDiv from "./PhilosophyDiv";
 import ProjectsDiv from "./ProjectsDiv";
+import DescriptionDiv from "./DescriptionDiv";
 
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
@@ -29,6 +30,12 @@ function Hoverable({iD, iMG, textBox}) {
          {clicked && iD === 'projects-div'
             ?
                <ProjectsDiv />
+            :
+               null
+         }
+         {clicked && iD === 'description-div'
+            ?
+               <DescriptionDiv />
             :
                null
          }

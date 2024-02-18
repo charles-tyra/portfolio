@@ -210,19 +210,6 @@ table {
   border: 1px solid black;
 }
 
-#placeholder4 {
-  position: absolute;
-
-  margin-top: calc(1150% / 36);
-  margin-left: calc(2100% / 64);
-  
-  height: calc(600% / 36);
-  width: calc(2600% / 64);
-
-  background: white;
-  border: 1px solid black;
-}
-
 #statement-container {
   position: absolute;
   display: flex;
