@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './ProjectsDiv.css';
+import Hoverable from "../Hoverable";
 
 import TripItDiv from './TripItDiv';
 import SaharaDiv from './SaharaDiv';
@@ -10,7 +11,8 @@ function ProjectsDiv() {
    
    return (
       <>
-         <SaharaDiv />
+         <Hoverable iD={'sahara-div'} textBox={'projects'} />
+         <button></button>
       </>
    )
 }

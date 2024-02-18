@@ -9,6 +9,7 @@ import resumeImg from './assets/photo23.jpg';
 import projectsImg from './assets/photo27.jpg';
 import linesUnused from './assets/photo17.jpg';
 import fuzzyUnused from './assets/photo7.jpg';
+import ProjectsDiv from './components/ProjectsDiv';
 
 function App() {
   
@@ -55,8 +56,7 @@ function App() {
             Charles Tyra
           </div>
           <Hoverable iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
-          <Hoverable iD={'sahara-div'} textBox={'projects'}/> 
-          <button></button>
+          <ProjectsDiv />
           <Hoverable iD={'philosophy-div'} textBox={'philosophy'} />
           <Hoverable iD={'description-div'} textBox={'project-info'} />
 
