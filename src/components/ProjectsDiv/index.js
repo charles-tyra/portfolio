@@ -12,7 +12,7 @@ function ProjectsDiv() {
    return (
       <>
          <Hoverable iD={'sahara-div'} textBox={'projects'} />
-         <button></button>
+         <Hoverable iD={'trip-it-div'} textBox={'projects'} />
       </>
    )
 }

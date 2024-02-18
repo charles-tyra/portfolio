@@ -184,19 +184,6 @@ table {
   object-fit: contain;
 }
 
-#placeholder2 {
-  position: absolute;
-
-  margin-top: calc(500% / 36);
-  margin-left: calc(3500% / 64);
-
-  width: calc(1400% / 64);
-  height: calc(1000% / 36);
-
-  background-color: white;
-  border: 1px solid black;
-}
-
 #placeholder3 {
   position: absolute;
 

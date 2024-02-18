@@ -1,0 +1,11 @@
+#trip-it-div {
+   position: absolute;
+
+   margin-top: calc(500% / 36);
+   margin-left: calc(3500% / 64);
+
+   width: calc(1400% / 64);
+   height: calc(1000% / 36);
+
+   border: 1px solid black;
+}

@@ -6,6 +6,7 @@ import PhilosophyDiv from "./PhilosophyDiv";
 import ProjectsDiv from "../ProjectsDiv";
 import DescriptionDiv from "./DescriptionDiv";
 import SaharaDiv from "../ProjectsDiv/SaharaDiv";
+import TripItDiv from "../ProjectsDiv/TripItDiv";
 
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
@@ -34,9 +35,9 @@ function Hoverable({iD, iMG, textBox}) {
             :
                null
          }
-         {clicked && iD === 'projects-div'
+         {clicked && iD === 'trip-it-div'
             ?
-               <SaharaDiv />
+               <TripItDiv />
             :
                null
          }
