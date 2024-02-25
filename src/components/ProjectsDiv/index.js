@@ -16,7 +16,6 @@ function ProjectsDiv() {
 
 
          <Hoverable iD={'description-div'} textBox={'project-info'} />
-         {/* {test} */}
       </>
    )
 }
