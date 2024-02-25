@@ -60,9 +60,6 @@ function App() {
           <Hoverable iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />
-
-          {/* <div id='placeholder2' />
-          <div id='placeholder3' /> */}
         </div>
       </div>
 
