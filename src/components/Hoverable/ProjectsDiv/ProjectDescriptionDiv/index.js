@@ -1,7 +1,7 @@
 import React from "react";
 import './ProjectDescriptionDiv.css';
 
-function ProjectDesccriptionDiv({projectState}) {
+function ProjectDescriptionDiv({projectState}) {
 
    return (
       <div>
@@ -13,4 +13,4 @@ function ProjectDesccriptionDiv({projectState}) {
    )
 }
 
-export default ProjectDesccriptionDiv;
+export default ProjectDescriptionDiv;

@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import './ProjectsDiv.css';
 import Hoverable from "..";
 
-import TripItDiv from './TripItDiv';
-import SaharaDiv from './SaharaDiv';
-import GrapeDiv from './GrapeDiv';
-
 function ProjectsDiv() {
    let [project, setProject] = useState('TRIPIT');
    
@@ -16,6 +12,7 @@ function ProjectsDiv() {
                <>
                   <Hoverable iD={'trip-it-div'} textBox={'projects'} />
                   <Hoverable iD={'description-div'} textBox={'project-info'} />
+                  <button id='testbutton' onClick={setProject('SAHARA')}>CLICKME</button>
                </>
             : 
                null
