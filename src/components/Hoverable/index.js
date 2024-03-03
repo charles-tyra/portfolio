@@ -7,7 +7,7 @@ import SaharaDiv from "./ProjectsDiv/SaharaDiv";
 import TripItDiv from "./ProjectsDiv/TripItDiv";
 import ProjectDescriptionDiv from "./ProjectsDiv/ProjectDescriptionDiv";
 
-function Hoverable({iD, iMG, textBox}) {
+function Hoverable({iD, textBox, project=null}) {
    let [clicked, setClicked] = useState(false);
 
    const changeDiv = () => {
@@ -42,7 +42,7 @@ function Hoverable({iD, iMG, textBox}) {
          }
          {clicked && iD === 'description-div'
             ?
-               <ProjectDescriptionDiv />
+               <ProjectDescriptionDiv projectState = {project} />
             :
                null
          }

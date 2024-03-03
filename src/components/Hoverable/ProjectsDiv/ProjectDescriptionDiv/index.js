@@ -5,7 +5,7 @@ function ProjectDescriptionDiv({projectState}) {
 
    return (
       <div>
-         {true
+         {projectState === 'TRIPIT'
             ?  <div>test statement</div>
             : null 
          }
