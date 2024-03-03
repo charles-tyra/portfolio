@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import './ProjectsDiv.css';
 import Hoverable from "..";
 
@@ -9,10 +9,10 @@ function ProjectsDiv() {
       <>
          {project === 'TRIPIT'
             ?
-               <>
+            <>
                   <Hoverable iD={'trip-it-div'} textBox={'projects'} />
                   <Hoverable iD={'description-div'} textBox={'project-info'} />
-                  <button id='testbutton' onClick={setProject('SAHARA')}>CLICKME</button>
+                  <button id='testbutton' onClick={() => setProject('SAHARA')}>CLICKME</button>
                </>
             : 
                null
@@ -22,6 +22,8 @@ function ProjectsDiv() {
                <>
                   <Hoverable iD={'sahara-div'} textBox={'projects'} />
                   <Hoverable iD={'description-div'} textBox={'project-info'} />
+               <button id='testbutton' onClick={() => setProject('TRIPIT')}>CLICKME</button>
+
                </>
             : 
                null
