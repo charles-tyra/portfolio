@@ -9,7 +9,7 @@ import resumeImg from './assets/photo23.jpg';
 import projectsImg from './assets/photo27.jpg';
 import linesUnused from './assets/photo17.jpg';
 import fuzzyUnused from './assets/photo7.jpg';
-import ProjectsDiv from './components/ProjectsDiv';
+import ProjectsDiv from './components/Hoverable/ProjectsDiv';
 
 function App() {
   

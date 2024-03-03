@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './ProjectsDiv.css';
-import Hoverable from "../Hoverable";
+import Hoverable from "..";
 
 import TripItDiv from './TripItDiv';
 import SaharaDiv from './SaharaDiv';
@@ -20,11 +20,24 @@ function ProjectsDiv() {
             : 
                null
          }
-
-         <Hoverable iD={'sahara-div'} textBox={'projects'} />
-
-
-         <Hoverable iD={'description-div'} textBox={'project-info'} />
+         {project === 'SAHARA'
+            ?
+               <>
+                  <Hoverable iD={'sahara-div'} textBox={'projects'} />
+                  <Hoverable iD={'description-div'} textBox={'project-info'} />
+               </>
+            : 
+               null
+         }
+         {/* {project === 'GRAPEPROSPERITY'
+            ?
+               <>
+                  <Hoverable iD={'trip-it-div'} textBox={'projects'} />
+                  <Hoverable iD={'description-div'} textBox={'project-info'} />
+               </>
+            : 
+               null
+         } */}
       </>
    )
 }

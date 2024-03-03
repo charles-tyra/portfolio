@@ -1,7 +1,7 @@
 import React from "react";
 import './TripItDiv.css';
 
-import tripIt from '../../../assets/tripItSplashPage.png';
+import tripIt from '../../../../assets/tripItSplashPage.png';
 
 function TripItDiv() {
    return (

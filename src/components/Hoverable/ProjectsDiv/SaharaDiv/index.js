@@ -1,7 +1,7 @@
 import React from "react";
 import './SaharaDiv.css';
 
-import sahara from '../../../assets/sahara_screenshot.png';
+import sahara from '../../../../assets/sahara_screenshot.png';
 
 function SaharaDiv() {
    return (

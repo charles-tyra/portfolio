@@ -3,10 +3,10 @@ import './Hoverable.css';
 
 import ResumeDiv from "./ResumeDiv";
 import PhilosophyDiv from "./PhilosophyDiv";
-import ProjectsDiv from "../ProjectsDiv";
-import SaharaDiv from "../ProjectsDiv/SaharaDiv";
-import TripItDiv from "../ProjectsDiv/TripItDiv";
-import ProjectDesccriptionDiv from "../ProjectsDiv/ProjectDescriptionDiv";
+import ProjectsDiv from "./ProjectsDiv";
+import SaharaDiv from "./ProjectsDiv/SaharaDiv";
+import TripItDiv from "./ProjectsDiv/TripItDiv";
+import ProjectDesccriptionDiv from "./ProjectsDiv/ProjectDescriptionDiv";
 
 function Hoverable({iD, iMG, textBox}) {
    let [clicked, setClicked] = useState(false);
