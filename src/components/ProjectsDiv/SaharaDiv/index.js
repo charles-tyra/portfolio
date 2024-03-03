@@ -5,9 +5,11 @@ import sahara from '../../../assets/sahara_screenshot.png';
 
 function SaharaDiv() {
    return (
-      <div id='project-container'>
-         <img id='sahara-img' src={sahara} />
-      </div>
+      <>
+         <div id='project-container'>
+            <img id='sahara-img' src={sahara} />
+         </div>
+      </>
    )
 }
 

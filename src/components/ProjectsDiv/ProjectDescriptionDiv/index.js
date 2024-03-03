@@ -4,7 +4,12 @@ import './ProjectDescriptionDiv.css';
 function ProjectDesccriptionDiv({projectState}) {
 
    return (
-      <div/>
+      <div>
+         {true
+            ?  <div>test statement</div>
+            : null 
+         }
+      </div>
    )
 }
 
