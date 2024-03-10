@@ -14,6 +14,8 @@ function Hoverable({iD, textBox, project=null}) {
       setClicked(!clicked);
    }
 
+   // Think about setting an on hover. Possibly too busy.
+
    return (
       <div id={iD} className="hoverable-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
