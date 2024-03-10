@@ -5,6 +5,8 @@ import Hoverable from "..";
 function ProjectsDiv() {
    let [project, setProject] = useState('TRIPIT');
    
+   //need to set up a on click to show that the project info can then exist
+   
    return (
       <>
          {project === 'TRIPIT'
