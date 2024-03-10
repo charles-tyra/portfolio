@@ -7,6 +7,7 @@ import SaharaDiv from "./ProjectsDiv/SaharaDiv";
 import TripItDiv from "./ProjectsDiv/TripItDiv";
 import ProjectDescriptionDiv from "./ProjectsDiv/ProjectDescriptionDiv";
 
+//Change class name from hoverable - need to be readable and understand, no longer focused on Hover feature.
 function Hoverable({iD, textBox, project=null}) {
    let [clicked, setClicked] = useState(false);
 
