@@ -24,7 +24,7 @@ function ProjectsDiv() {
                <>
                   <Hoverable iD={'sahara-div'} textBox={'projects'} project={project} />
                   <Hoverable iD={'description-div'} textBox={'project-info'} />
-                  <button id='on-click-sahara-right' className='on-click-button' onClick={() => setProject('TRIPIT')}> {'>'}</button>
+                  <button id='sahara-right-button' className='on-click-button' onClick={() => setProject('TRIPIT')}> {'>'}</button>
                </>
             : 
                null
