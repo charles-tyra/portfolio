@@ -26,6 +26,14 @@
    font-size: 16px;
 }
 
+.on-click-button {
+   height: 40px;
+   width: 30px;
+
+   background-color: white;
+   border: 1px solid black;
+}
+
 #projects-div {
    margin-top: calc(500% / 36);
    margin-left: calc(2100% / 64);
