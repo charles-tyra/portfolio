@@ -53,8 +53,9 @@ table {
 #background-img {
   position: absolute;
   object-fit: contain;
-  
-  width: 100%;
+
+  top: 5.5%;
+  left: 30%;
 }
 
 #body-container {
