@@ -27,8 +27,8 @@
 }
 
 .on-click-button {
-   height: 40px;
-   width: 30px;
+   height: calc(100% / 36);
+   width: calc(100% / 64);
 
    background-color: white;
    border: 1px solid black;
@@ -43,14 +43,17 @@
 }
 
 #sahara-right-button {
-   margin-top: calc(500% / 36);
+   margin-top: calc(700% / 36);
    margin-left: calc(3500% / 64 + 1px);
 
    z-index: 1;
 }
 
 #tripit-left-button {
+   margin-top: calc(800% / 36);
+   margin-left: calc(3400% / 64 + 1px);
 
+   z-index: 1;
 }
 
 #testbutton {
