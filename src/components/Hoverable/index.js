@@ -16,6 +16,7 @@ function Hoverable({iD, textBox, project=null}) {
    }
 
    // Think about setting an on hover. Possibly too busy.
+   // Should I 'curry' this function? allow for pushing forward
 
    return (
       <div id={iD} className="hoverable-container" onClick={changeDiv}>
