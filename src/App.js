@@ -1,6 +1,6 @@
 import './App.css';
 
-import Hoverable from './components/InteractiveDiv';
+import Interactive from './components/InteractiveDiv';
 
 import background from './assets/photo12.jpg';
 import linksImg from './assets/photo5.jpg';
@@ -56,8 +56,8 @@ function App() {
             Charles Tyra
           </div>
 
-          <Hoverable iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
-          <Hoverable iD={'philosophy-div'} textBox={'philosophy'} />
+          <Interactive iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
+          <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />
         </div>

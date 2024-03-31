@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './ProjectsDiv.css';
-import Hoverable from "..";
+import Interactive from "..";
 
 function ProjectsDiv() {
    let [project, setProject] = useState('TRIPIT');
@@ -12,8 +12,8 @@ function ProjectsDiv() {
          {project === 'TRIPIT'
             ?
             <>
-                  <Hoverable iD={'trip-it-div'} textBox={'projects'} />
-                  <Hoverable iD={'description-div'} textBox={'project-info'} project={project} />
+                  <Interactive iD={'trip-it-div'} textBox={'projects'} />
+                  <Interactive iD={'description-div'} textBox={'project-info'} project={project} />
                   <button id='tripit-left-button' className='on-click-button' onClick={() => setProject('SAHARA')}> {'<'} </button>
                </>
             : 
@@ -22,8 +22,8 @@ function ProjectsDiv() {
          {project === 'SAHARA'
             ?
                <>
-                  <Hoverable iD={'sahara-div'} textBox={'projects'} project={project} />
-                  <Hoverable iD={'description-div'} textBox={'project-info'} />
+                  <Interactive iD={'sahara-div'} textBox={'projects'} project={project} />
+                  <Interactive iD={'description-div'} textBox={'project-info'} />
                   <button id='sahara-right-button' className='on-click-button' onClick={() => setProject('TRIPIT')}> {'>'}</button>
                </>
             : 
@@ -32,8 +32,8 @@ function ProjectsDiv() {
          {/* {project === 'GRAPEPROSPERITY'
             ?
                <>
-                  <Hoverable iD={'trip-it-div'} textBox={'projects'} />
-                  <Hoverable iD={'description-div'} textBox={'project-info'} />
+                  <Interactive iD={'trip-it-div'} textBox={'projects'} />
+                  <Interactive iD={'description-div'} textBox={'project-info'} />
                </>
             : 
                null
