@@ -1,10 +1,10 @@
-.hoverable {
+.interactive {
    position: absolute;
    width: 100%;
    height: 100%;
 }
 
-.hoverable-container {
+.interactive-container {
    position: absolute;
    overflow: hidden;
 
@@ -13,12 +13,12 @@
    border: 1px solid black;
 }
 
-.hoverable-img {
+.interactive-img {
    object-fit: contain;
    height: 100%;
 }
 
-.hoverable-addedText {
+.interactive-addedText {
    position: absolute;
    cursor: help;
    padding: 0px 2px;

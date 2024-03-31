@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './Hoverable.css';
+import './Interactive.css';
 
 import ResumeDiv from "./ResumeDiv";
 import PhilosophyDiv from "./PhilosophyDiv";
@@ -18,7 +18,7 @@ function Interactive({iD, textBox, project=null}) {
    // Should I 'curry' this function? allow for pushing forward
 
    return (
-      <div id={iD} className="hoverable-container" onClick={changeDiv}>
+      <div id={iD} className="interactive-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
             ? 
                <ResumeDiv />
@@ -51,13 +51,13 @@ function Interactive({iD, textBox, project=null}) {
          }
          {!clicked
             ?
-               <div className="hoverable">
-                  {/* <img src={iMG} className="hoverable-img" /> */}
+            <div className="interactive">
+               { }
                </div>
             :
                null
          }
-         {textBox && !clicked ? <div id={textBox} className="hoverable-addedText">{textBox}</div> : null}
+         {textBox && !clicked ? <div id={textBox} className="interactive-addedText">{textBox}</div> : null}
       </div>
    )
 }
