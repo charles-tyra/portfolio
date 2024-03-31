@@ -24,6 +24,7 @@ function App() {
 
   const currentBackground = backgroundImageObject.DEFAULT;
   
+  //Think about what to set up for the future - not sure how to expand
   return (
     <div id='totalframe'>
       <div id='body-container'>
