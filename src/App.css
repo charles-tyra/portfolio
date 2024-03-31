@@ -68,6 +68,7 @@ table {
   max-width: 1920px;
 }
 
+/* Does it make sense to have an outside to differentation the border? */
 #body{
   display: flex;
   position: absolute;
