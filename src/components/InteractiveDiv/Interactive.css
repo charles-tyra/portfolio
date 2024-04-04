@@ -58,6 +58,16 @@
    left: 84px;
 }
 
+#project-trip-it {
+   top: 211px;
+   left: 148px;
+}
+
+#project-sahara {
+   top: 211px;
+   left: 68px;
+}
+
 #resume-div {
    margin-top: calc(500% / 36);
    margin-left: calc(100% / 64);

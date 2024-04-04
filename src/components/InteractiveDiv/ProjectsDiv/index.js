@@ -7,14 +7,14 @@ function ProjectsDiv() {
    let [project, setProject] = useState('SAHARA');
    let [showProjectInfo, setShowProjectInfo] = useState(false);
    
-   //need to set up a on click to show that the project info can then exist
+   //Is there a way to have a 'show extra' button for Interactive - possible
    
    return (
       <>
          {project === 'TRIPIT'
             ?
             <>
-                  <Interactive iD={'trip-it-div'} textBox={'projects'} />
+                  <Interactive iD={'trip-it-div'} textBox={'project-trip-it'} />
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
                   <button id='tripit-left-button' className='on-click-button' onClick={() => setProject('SAHARA')}> {'<'} </button>
                </>
@@ -24,7 +24,7 @@ function ProjectsDiv() {
          {project === 'SAHARA'
             ?
                <>
-                  <Interactive iD={'sahara-div'} textBox={'projects'} project={project} />
+                  <Interactive iD={'sahara-div'} textBox={'project-sahara'} project={project} />
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
                   <button id='sahara-right-button' className='on-click-button' onClick={() => setProject('TRIPIT')}> {'>'}</button>
                </>
