@@ -61,3 +61,13 @@
    width: 500px;
    height: 500px;
 }
+
+#testShow {
+   position: absolute;
+   width: 200px;
+   height: 200px;
+   z-index: 6;
+
+   background-color: white;
+   border: solid 1px black;
+}
