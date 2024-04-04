@@ -13,7 +13,7 @@ function ProjectsDiv() {
       <>
          {project === 'TRIPIT'
             ?
-            <>
+               <>
                   <Interactive iD={'trip-it-div'} textBox={'project-trip-it'} />
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
                   <button id='tripit-left-button' className='on-click-button' onClick={() => setProject('SAHARA')}> {'<'} </button>
