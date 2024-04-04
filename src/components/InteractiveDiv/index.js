@@ -7,8 +7,11 @@ import SaharaDiv from "./ProjectsDiv/SaharaDiv";
 import TripItDiv from "./ProjectsDiv/TripItDiv";
 import ProjectDescriptionDiv from "./ProjectsDiv/ProjectDescriptionDiv";
 
-function Interactive({iD, textBox, project=null}) {
+function Interactive({ iD, textBox, project = null, clickedState = null, setClickedState = null }) {
    let [clicked, setClicked] = useState(false);
+
+   if(clickedState !== null && setClickedState !== null)
+      [clicked, setClicked] = [clickedState, setClickedState];
 
    const changeDiv = () => {
       setClicked(!clicked);
