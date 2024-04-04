@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import './ProjectsDiv.css';
 
 import Interactive from "..";
@@ -7,27 +7,39 @@ function ProjectsDiv() {
    let [project, setProject] = useState('SAHARA');
    let [showProjectInfo, setShowProjectInfo] = useState(false);
    let [clicked, setClicked] = useState(false);
-   
-   //Is there a way to have a 'show extra' button for Interactive - possible
+
+   let handleSetSahara = () => {
+      setProject('SAHARA');
+      setClicked(false);
+      setShowProjectInfo(false);
+   };
+
+   let handleSetTripIt = () => {
+      setProject('TRIPIT');
+      setClicked(false);
+      setShowProjectInfo(false);
+   }
    
    return (
       <>
-         {project === 'TRIPIT'
+         {project === 'SAHARA'
             ?
                <>
-                  <Interactive iD={'trip-it-div'} textBox={'project-trip-it'} clickedState={clicked} setClickedState={setClicked} />
+                  <Interactive iD={'sahara-div'} textBox={'project-sahara'} project={project} clickedState={clicked} setClickedState={setClicked} />
+                  {clicked ? <div id="more-info-sahara" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br />-<br />info</div> : null}
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
-                  <button id='tripit-left-button' className='on-click-button' onClick={() => setProject('SAHARA')}> {'<'} </button>
+                  <button id='sahara-right-button' className='on-click-button' onClick={handleSetTripIt}> {'>'}</button>
                </>
             : 
                null
          }
-         {project === 'SAHARA'
+         {project === 'TRIPIT'
             ?
                <>
-               <Interactive iD={'sahara-div'} textBox={'project-sahara'} project={project} clickedState={clicked} setClickedState={setClicked} />
+                  <Interactive iD={'trip-it-div'} textBox={'project-trip-it'} clickedState={clicked} setClickedState={setClicked} />
+                  {clicked ? <div id="more-info-trip-it" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br/>-<br/>info</div> : null}
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
-                  <button id='sahara-right-button' className='on-click-button' onClick={() => setProject('TRIPIT')}> {'>'}</button>
+                  <button id='tripit-left-button' className='on-click-button' onClick={handleSetSahara}> {'<'} </button>
                </>
             : 
                null

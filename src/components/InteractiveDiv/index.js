@@ -17,9 +17,6 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
       setClicked(!clicked);
    }
 
-   // Think about setting an on hover. Possibly too busy.
-   // Should I 'curry' this function? allow for pushing forward
-
    return (
       <div id={iD} className="interactive-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
