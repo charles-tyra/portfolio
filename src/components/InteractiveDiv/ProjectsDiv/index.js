@@ -8,6 +8,7 @@ function ProjectsDiv() {
    let [showProjectInfo, setShowProjectInfo] = useState(false);
    let [clicked, setClicked] = useState(false);
 
+   // Handle clicks to reset states as you move from project to project
    let handleSetSahara = () => {
       setProject('SAHARA');
       setClicked(false);
