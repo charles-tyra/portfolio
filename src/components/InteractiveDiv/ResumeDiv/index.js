@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Document, Page, pdfjs} from 'react-pdf';
 
 import resume from '../../../assets/charlestyraresume.pdf';
+import testresume from '../../../assets/testresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import './ResumeDiv.css';
 
