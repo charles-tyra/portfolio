@@ -15,10 +15,3 @@ function TripItDiv() {
 }
 
 export default TripItDiv;
-
-//To place elsewhere
-// /* <br/>
-
-//    <a id='tripit-img-link' href="https://trip-it.onrender.com">
-//    Trip It
-//    </a> */
