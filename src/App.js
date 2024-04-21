@@ -7,9 +7,11 @@ import linksImg from './assets/photo5.jpg';
 import philosophyImg from './assets/photo6.jpg';
 import resumeImg from './assets/photo23.jpg';
 import projectsImg from './assets/photo27.jpg';
-import linesUnused from './assets/photo17.jpg';
-import fuzzyUnused from './assets/photo7.jpg';
 import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
+
+// Unused - check later for possible resume use.
+// import linesUnused from './assets/photo17.jpg';
+// import fuzzyUnused from './assets/photo7.jpg';
 
 function App() {
   
@@ -24,7 +26,6 @@ function App() {
 
   const currentBackground = backgroundImageObject.DEFAULT;
   
-  //Think about what to set up for the future - not sure how to expand
   return (
     <div id='totalframe'>
       <div id='body-container'>
