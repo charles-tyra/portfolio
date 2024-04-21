@@ -13,6 +13,7 @@ import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
 // import linesUnused from './assets/photo17.jpg';
 // import fuzzyUnused from './assets/photo7.jpg';
 
+// Vacation / set-up
 function App() {
   
   //Change RESUME
