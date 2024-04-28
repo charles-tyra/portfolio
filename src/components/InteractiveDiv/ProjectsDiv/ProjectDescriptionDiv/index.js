@@ -5,8 +5,6 @@ import SaharaDescriptionDiv from "./SaharaDescriptionDiv";
 
 function ProjectDescriptionDiv({projectState}) {
 
-   //Change formatting of the words - have descriptions that match the vibes + links.
-
    return (
       <div id="project-container">
          {projectState === 'TRIPIT'
