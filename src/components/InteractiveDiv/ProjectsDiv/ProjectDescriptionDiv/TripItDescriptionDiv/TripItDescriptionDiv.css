@@ -1,11 +1,44 @@
-#description-div {
-   position: absolute;
+#project-description-div {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
 
-   margin-top: calc(1150% / 36);
-   margin-left: calc(2100% / 64);
+   height: 100%;
+   width: 92%;
 
-   height: calc(600% / 36);
-   width: calc(2600% / 64);
+   padding: 18px 22px;
+   padding-top: 18px;
 
-   border: 1px solid black;
+   line-height: 1.4;
+   font-size: 12px;
+}
+
+#project-description-links {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 106px;
+
+   margin-left: 9px;
+   margin-bottom: 19px;
+
+   font-size: 10px;
+}
+
+#project-description-links>a {
+   color: black;
+}
+
+#project-description-top-row {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+
+   justify-content: space-between;
+}
+
+#trip-it-line {
+   border-top: 1px solid black;
+   width: 380px;
 }

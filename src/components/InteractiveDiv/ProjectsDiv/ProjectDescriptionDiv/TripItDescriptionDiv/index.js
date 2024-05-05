@@ -11,7 +11,7 @@ function TripItDescriptionDiv() {
                <div className="vertical-line" />
                <a href='https://github.com/ShawnaEHartley/trip-it'>github repo</a>
             </div>
-            <div id='sahara-line' />
+            <div id='trip-it-line' />
          </div>
          &emsp; When looking to create an website clone App Academy, I 
       </div>
