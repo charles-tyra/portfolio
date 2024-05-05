@@ -13,9 +13,7 @@ function SaharaDescriptionDiv() {
             </div>
             <div id='sahara-line' />
          </div>
-
-         Fullstack Amazon clone where people can create a user account,
-         search and review products, add them to cart and purchase them
+            &emsp;
       </div>
    )
 }
