@@ -13,7 +13,7 @@ function SaharaDescriptionDiv() {
             </div>
             <div id='sahara-line' />
          </div>
-            &emsp;
+            &emsp; How do you talk about a project that 
       </div>
    )
 }
