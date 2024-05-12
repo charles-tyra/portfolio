@@ -51,9 +51,7 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
          }
          {!clicked
             ?
-            <div className="interactive">
-               { }
-               </div>
+            <div className="interactive" />
             :
                null
          }

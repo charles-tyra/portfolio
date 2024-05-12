@@ -7,6 +7,8 @@ import testresume from '../../../assets/testresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import './ResumeDiv.css';
 
+// NEED RESUME DOWNLOAD LINK.
+
 // Think about general use of switches from background to resume - whether it makes sense
 // to pull someone's vision so harshly.
 function ResumeDiv() {
