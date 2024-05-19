@@ -185,6 +185,10 @@ table {
   object-fit: contain;
 }
 
+#pdfDownload {
+  z-index: 2;
+}
+
 #statement-container {
   position: absolute;
   display: flex;

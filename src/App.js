@@ -70,7 +70,7 @@ function App() {
 
       {/* PDF download link */}
       {/* <Document file={resume}/> */}
-      {/* <a href='./assets/charlestyraresume.pdf' download='CharlesTyraResume'>Test download</a> */}
+      <a iD='pdfDownload' href='src/assets/charlestyraresume.pdf' download='charlestyraresume.pdf'>Test download</a>
     </div>
   );
 }
