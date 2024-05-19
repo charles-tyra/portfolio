@@ -67,10 +67,6 @@ function App() {
           <ProjectsDiv />
         </div>
       </div>
-
-      {/* PDF download link */}
-      {/* <Document file={resume}/> */}
-      {/* <a iD='pdfDownload' href='./assets/charlestyraresume.pdf' download='charlestyraresume.pdf'>Test download</a> */}
     </div>
   );
 }
