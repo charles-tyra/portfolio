@@ -1,4 +1,5 @@
 import './App.css';
+import Reac
 
 import Interactive from './components/InteractiveDiv';
 
@@ -70,7 +71,7 @@ function App() {
 
       {/* PDF download link */}
       {/* <Document file={resume}/> */}
-      <a iD='pdfDownload' href='src/assets/charlestyraresume.pdf' download='charlestyraresume.pdf'>Test download</a>
+      {/* <a iD='pdfDownload' href='./assets/charlestyraresume.pdf' download='charlestyraresume.pdf'>Test download</a> */}
     </div>
   );
 }
