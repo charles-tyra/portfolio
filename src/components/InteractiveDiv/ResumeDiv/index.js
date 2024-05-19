@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Document, Page, pdfjs} from 'react-pdf';
+import { PDFDownloadLink } from "@react-pdf/renderer";
 
 import resume from '../../../assets/charlestyraresume.pdf';
 import testresume from '../../../assets/testresume.pdf';
@@ -20,17 +21,29 @@ function ResumeDiv() {
       import.meta.url,
    ).toString();
 
+   const DownloadDoc = () => (
+      <Document file={resume} loading='handmade resume coming up' />
+   )
+
    // useEffect(() => {
    //    setResumeWidth(window.innerWidth * 20 / 64)
    // }
    // , []);
 
    return(
-      <div id='resume-doc'>
-         <Document file={resume} loading='handmade resume coming up'>
-            <Page pageNumber={1} renderAnnotationLayer={true} width={resumeWidth} />
-         </Document>
-      </div>
+      <>  
+         <div id='resume-doc'>
+            <Document file={resume} loading='handmade resume coming up'>
+               <Page pageNumber={1} renderAnnotationLayer={true} width={resumeWidth} />
+            </Document>
+         </div>
+
+         <div>
+            <PDFDownloadLink document={< DownloadDoc/>} fileName="charlestyraresume.pdf">
+               {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
+            </PDFDownloadLink>
+         </div>
+      </>
    )
 }
 
