@@ -1,5 +1,4 @@
 import './App.css';
-import Reac
 
 import Interactive from './components/InteractiveDiv';
 
