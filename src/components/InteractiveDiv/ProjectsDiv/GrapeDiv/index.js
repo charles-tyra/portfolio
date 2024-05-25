@@ -3,7 +3,6 @@ import './GrapeDiv.css';
 
 
 // For later use
-
 function GrapeDiv() {
    return (
       <div/>
