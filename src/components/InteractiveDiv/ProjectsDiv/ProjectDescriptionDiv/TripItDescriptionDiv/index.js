@@ -2,7 +2,6 @@ import React from "react";
 import './TripItDescriptionDiv.css';
 
 function TripItDescriptionDiv() {
-
    return (
       <div id="project-description-div">
          <div id='project-description-top-row'>

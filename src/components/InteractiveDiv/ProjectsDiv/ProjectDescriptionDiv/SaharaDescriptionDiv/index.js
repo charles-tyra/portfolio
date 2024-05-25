@@ -2,7 +2,6 @@ import React from "react";
 import './SaharaDescriptionDiv.css';
 
 function SaharaDescriptionDiv() {
-
    return (
       <div id="project-description-div">
          <div id='project-description-top-row'>
