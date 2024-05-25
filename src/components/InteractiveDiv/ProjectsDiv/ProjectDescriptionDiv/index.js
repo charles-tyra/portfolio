@@ -5,7 +5,6 @@ import SaharaDescriptionDiv from "./SaharaDescriptionDiv";
 import TripItDescriptionDiv from "./TripItDescriptionDiv";
 
 function ProjectDescriptionDiv({projectState}) {
-
    return (
       <div id="project-container">
          {projectState === 'TRIPIT'
