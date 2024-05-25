@@ -38,9 +38,11 @@ function ResumeDiv() {
             </Document>
          </div>
 
+
+         {/* HAVE TO MOVE */}
          <div>
-            <PDFDownloadLink document={< DownloadDoc/>} fileName="charlestyraresume.pdf">
-               {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
+            <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
+               {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded for download')}
             </PDFDownloadLink>
          </div>
       </>
