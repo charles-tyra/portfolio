@@ -3,29 +3,24 @@ import './App.css';
 import Interactive from './components/InteractiveDiv';
 
 import background from './assets/photo12.jpg';
-import linksImg from './assets/photo5.jpg';
-import philosophyImg from './assets/photo6.jpg';
-import resumeImg from './assets/photo23.jpg';
-import projectsImg from './assets/photo27.jpg';
-import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
+// import linksImg from './assets/photo5.jpg';
+// import philosophyImg from './assets/photo6.jpg';
+// import resumeImg from './assets/photo23.jpg';
+// import projectsImg from './assets/photo27.jpg';
+// import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
 
-// Unused - check later for possible resume use.
-// import linesUnused from './assets/photo17.jpg';
-// import fuzzyUnused from './assets/photo7.jpg';
-
-// Vacation / set-up
 function App() {
   
-  //Change RESUME
-  const backgroundImageObject = {
-    DEFAULT: background,
-    RESUME: resumeImg,
-    LINKS: linksImg,
-    PROJECTS: projectsImg,
-    PHILOSOPHY: philosophyImg
-  };
+  //Change RESUME - use to check
+  // const backgroundImageObject = {
+  //   DEFAULT: background,
+  //   RESUME: resumeImg,
+  //   LINKS: linksImg,
+  //   PROJECTS: projectsImg,
+  //   PHILOSOPHY: philosophyImg
+  // };
 
-  const currentBackground = backgroundImageObject.DEFAULT;
+  const currentBackground = background;
   
   return (
     <div id='totalframe'>
