@@ -2,7 +2,6 @@ import React from "react";
 import './PhilosophyDiv.css';
 
 function PhilosophyDiv() {
-
    return (
       <div id='philosophy-inside'>
          I practiced art in school. I enjoyed the open-ended quality; the endless
