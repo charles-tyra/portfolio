@@ -12,7 +12,7 @@ function TripItDescriptionDiv() {
             </div>
             <div id='trip-it-line' />
          </div>
-         &emsp; When looking to create an website clone App Academy, I 
+         &emsp; Placeholder.
       </div>
    )
 }
