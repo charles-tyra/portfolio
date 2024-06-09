@@ -3,6 +3,7 @@ import './App.css';
 import Interactive from './components/InteractiveDiv';
 
 import background from './assets/photo12.jpg';
+
 // import linksImg from './assets/photo5.jpg';
 // import philosophyImg from './assets/photo6.jpg';
 // import resumeImg from './assets/photo23.jpg';
