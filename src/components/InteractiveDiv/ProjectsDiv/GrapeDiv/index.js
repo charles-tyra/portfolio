@@ -1,11 +1,13 @@
-import React from "react";
-import './GrapeDiv.css';
+//    CSS COMMENTED OUT.
 
-// For later use
-function GrapeDiv() {
-   return (
-      <div/>
-   )
-}
+// import React from "react";
+// import './GrapeDiv.css';
 
-export default GrapeDiv;
+// // For later use
+// function GrapeDiv() {
+//    return (
+//       <div/>
+//    )
+// }
+
+// export default GrapeDiv;
