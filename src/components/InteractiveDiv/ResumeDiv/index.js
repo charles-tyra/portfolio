@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Document, Page, pdfjs} from 'react-pdf';
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
