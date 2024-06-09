@@ -4,7 +4,6 @@ import { Document, Page, pdfjs} from 'react-pdf';
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
 import resume from '../../../assets/charlestyraresume.pdf';
-import testresume from '../../../assets/testresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import './ResumeDiv.css';
 
