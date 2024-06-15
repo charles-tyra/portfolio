@@ -1,6 +1,7 @@
 import './App.css';
 
 import Interactive from './components/InteractiveDiv';
+import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
 
 import background from './assets/photo12.jpg';
 
@@ -8,7 +9,6 @@ import background from './assets/photo12.jpg';
 // import philosophyImg from './assets/photo6.jpg';
 // import resumeImg from './assets/photo23.jpg';
 // import projectsImg from './assets/photo27.jpg';
-// import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
 
 function App() {
   
