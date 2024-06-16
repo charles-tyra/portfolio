@@ -187,8 +187,13 @@ table {
 
 #resume-download-button {
   position: absolute;
-  margin-top: calc(1800% / 36);
+  display: flex;
+  justify-content: center;
+  margin-top: calc(1750% / 36);
   margin-left: calc(100% / 64);
+
+  width: calc(400% / 64);
+  height: (100% / 36);
 
   border: 1px solid black;
 }

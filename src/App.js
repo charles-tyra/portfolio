@@ -25,7 +25,7 @@ function App() {
   const DownloadResumeButton = () => (
     <div id='resume-download-button'>
       <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
-        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded for download')}
+        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded, download')}
       </PDFDownloadLink>
     </div >
   )
@@ -82,7 +82,7 @@ function App() {
 
           <ProjectsDiv />
         </div>
-      </div>x
+      </div>
     </div>
   );
 }
