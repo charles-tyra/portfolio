@@ -21,7 +21,7 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
       <div id={iD} className="interactive-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
             ? 
-               <ResumeDiv />
+               <ResumeDiv resume={project} />
             : 
                null
          }

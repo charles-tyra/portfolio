@@ -1,7 +1,9 @@
 import './App.css';
+import { useState } from 'react';
 
 import Interactive from './components/InteractiveDiv';
 import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
+import resume from './assets/charlestyraresume.pdf';
 
 import background from './assets/photo12.jpg';
 
@@ -11,6 +13,7 @@ import background from './assets/photo12.jpg';
 // import projectsImg from './assets/photo27.jpg';
 
 function App() {
+  let [clickedResume, setClickedResume] = useState(false);
   
   //Change RESUME - use to check
   // const backgroundImageObject = {
@@ -57,7 +60,8 @@ function App() {
             Charles Tyra
           </div>
 
-          <Interactive iD={'resume-div'} textBox={'resume'}/> {/*corresponding image: iMG={resumeImg} */}
+          <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/> {/*corresponding image: iMG={resumeImg} */}
+          {!clickedResume ? <div id='test-div'>THIS IS A CLICKED RESUME</div> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />

@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Document, Page, pdfjs} from 'react-pdf';
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
-import resume from '../../../assets/charlestyraresume.pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import './ResumeDiv.css';
 
@@ -11,8 +10,9 @@ import './ResumeDiv.css';
 
 // Think about general use of switches from background to resume - whether it makes sense
 // to pull someone's vision so harshly.
-function ResumeDiv() {
+function ResumeDiv({ resume }) {
    let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 18 / 64);
+   let [clicked, setClicked] = useState(false);
 
    //Sets worker for PDF
    pdfjs.GlobalWorkerOptions.workerSrc = new URL(
