@@ -185,6 +185,20 @@ table {
   object-fit: contain;
 }
 
+#resume-download-button {
+  position: absolute;
+  margin-top: calc(1800% / 36);
+  margin-left: calc(100% / 64);
+
+  border: 1px solid black;
+}
+
+#resume-download-button > a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
 #statement-container {
   position: absolute;
   display: flex;
