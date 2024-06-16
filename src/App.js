@@ -1,5 +1,7 @@
 import './App.css';
 import { useState } from 'react';
+import { Document } from 'react-pdf';
+import { PDFDownloadLink } from '@react-pdf/renderer';
 
 import Interactive from './components/InteractiveDiv';
 import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
@@ -14,6 +16,19 @@ import background from './assets/photo12.jpg';
 
 function App() {
   let [clickedResume, setClickedResume] = useState(false);
+
+  // Resume Download link.
+  const DownloadDoc = () => (
+    <Document file={resume} loading='handmade resume coming up' />
+  )
+
+  const DownloadResumeButton = () => (
+    < div >
+      <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
+        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded for download')}
+      </PDFDownloadLink>
+    </div >
+  )
   
   //Change RESUME - use to check
   // const backgroundImageObject = {
@@ -25,6 +40,7 @@ function App() {
   // };
 
   const currentBackground = background;
+
   
   return (
     <div id='totalframe'>
@@ -61,7 +77,7 @@ function App() {
           </div>
 
           <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/> {/*corresponding image: iMG={resumeImg} */}
-          {!clickedResume ? <div id='test-div'>THIS IS A CLICKED RESUME</div> : null}
+          {clickedResume ? <DownloadResumeButton /> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />

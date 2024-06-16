@@ -20,31 +20,17 @@ function ResumeDiv({ resume }) {
       import.meta.url,
    ).toString();
 
-   const DownloadDoc = () => (
-      <Document file={resume} loading='handmade resume coming up' />
-   )
-
    // useEffect(() => {
    //    setResumeWidth(window.innerWidth * 20 / 64)
    // }
    // , []);
 
    return(
-      <>  
-         <div id='resume-doc'>
-            <Document file={resume} loading='handmade resume coming up'>
-               <Page pageNumber={1} renderAnnotationLayer={true} width={resumeWidth} />
-            </Document>
-         </div>
-
-
-         {/* HAVE TO MOVE */}
-         <div>
-            <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
-               {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded for download')}
-            </PDFDownloadLink>
-         </div>
-      </>
+      <div id='resume-doc'>
+         <Document file={resume} loading='handmade resume coming up'>
+            <Page pageNumber={1} renderAnnotationLayer={true} width={resumeWidth} />
+         </Document>
+      </div>
    )
 }
 
