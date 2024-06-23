@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { Document } from 'react-pdf';
+import { Document, Page } from 'react-pdf';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 
 import Interactive from './components/InteractiveDiv';
@@ -9,9 +9,9 @@ import resume from './assets/charlestyraresume.pdf';
 
 import background from './assets/photo12.jpg';
 
+// import resumeImg from './assets/photo23.jpg';
 // import linksImg from './assets/photo5.jpg';
 // import philosophyImg from './assets/photo6.jpg';
-// import resumeImg from './assets/photo23.jpg';
 // import projectsImg from './assets/photo27.jpg';
 
 function App() {
@@ -19,7 +19,11 @@ function App() {
 
   // Resume Download link.
   const DownloadDoc = () => (
-    <Document file={resume} loading='handmade resume coming up' />
+    <Document file={resume}>
+      <Page>
+
+      </Page>
+    </Document>
   )
 
   const DownloadResumeButton = () => (
@@ -76,7 +80,7 @@ function App() {
             Charles Tyra
           </div>
 
-          <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/> {/*corresponding image: iMG={resumeImg} */}
+          <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/>
           {clickedResume ? <DownloadResumeButton /> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 

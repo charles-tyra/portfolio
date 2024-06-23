@@ -9,7 +9,6 @@ import './ResumeDiv.css';
 // to pull someone's vision so harshly.
 function ResumeDiv({ resume }) {
    let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 18 / 64);
-   let [clicked, setClicked] = useState(false);
 
    //Sets worker for PDF
    pdfjs.GlobalWorkerOptions.workerSrc = new URL(
