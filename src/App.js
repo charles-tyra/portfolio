@@ -19,6 +19,7 @@ function App() {
 
   // Possible bugs
       // giving link to address of pdf
+      // doesn't contain any info from pages / just general PDF?
 
   // Resume Download link.
   const DownloadDoc = () => (
