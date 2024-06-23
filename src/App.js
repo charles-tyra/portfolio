@@ -20,16 +20,13 @@ function App() {
   // Resume Download link.
   const DownloadDoc = () => (
     <Document file={resume}>
-      <Page>
-
-      </Page>
     </Document>
   )
 
   const DownloadResumeButton = () => (
     <div id='resume-download-button'>
       <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
-        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'loaded, download')}
+        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'click-to-download')}
       </PDFDownloadLink>
     </div >
   )
