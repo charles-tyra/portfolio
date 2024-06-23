@@ -17,6 +17,9 @@ import background from './assets/photo12.jpg';
 function App() {
   let [clickedResume, setClickedResume] = useState(false);
 
+  // Possible bugs
+      // giving link to address of pdf
+
   // Resume Download link.
   const DownloadDoc = () => (
     <Document file={resume}>
