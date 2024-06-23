@@ -20,6 +20,7 @@ function App() {
   // Possible bugs
       // giving link to address of pdf
       // doesn't contain any info from pages / just general PDF?
+      // 'it may be damaged', preview doesn't pick it up. only 779 bytes
 
   // Resume Download link.
   const DownloadDoc = () => (
