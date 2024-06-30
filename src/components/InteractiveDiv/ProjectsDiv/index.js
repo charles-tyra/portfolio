@@ -14,13 +14,13 @@ function ProjectsDiv() {
       setClicked(false);
       setShowProjectInfo(false);
    };
-
    let handleSetTripIt = () => {
       setProject('TRIPIT');
       setClicked(false);
       setShowProjectInfo(false);
    }
    
+
    return (
       <>
          {project === 'SAHARA'
