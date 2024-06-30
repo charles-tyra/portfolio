@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document } from 'react-pdf';
 import { PDFDownloadLink } from '@react-pdf/renderer';
 
 import Interactive from './components/InteractiveDiv';
