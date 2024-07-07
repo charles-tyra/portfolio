@@ -13,16 +13,10 @@ import background from './assets/photo12.jpg';
 // import projectsImg from './assets/photo27.jpg';
 
 function App() {
-  let [clickedResume, setClickedResume] = useState(false);
-
-
-  // Possible bugs
-      // giving link to address of pdf
-      // doesn't contain any info from pages / just general PDF?
-      // 'it may be damaged', preview doesn't pick it up. only 779 bytes
+  let [clickedResume, setClickedResume] = useState(false); 
 
   // Resume Download link.
-  const DownloadDoc = () => (
+  const DownloadPDFButton = () => (
     <div id='resume-download-button'>
       <a href={resume} download="charles_tyra_resume" target='_blank'>
         click-to-download
@@ -77,7 +71,7 @@ function App() {
           </div>
 
           <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/>
-          {clickedResume ? <DownloadDoc /> : null}
+          {clickedResume ? <DownloadPDFButton /> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />
