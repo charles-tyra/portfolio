@@ -1,7 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { Document } from 'react-pdf';
-import { PDFDownloadLink } from '@react-pdf/renderer';
+import { Document, Page, PDFDownloadLink } from '@react-pdf/renderer';
 
 import Interactive from './components/InteractiveDiv';
 import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
@@ -17,6 +16,7 @@ import background from './assets/photo12.jpg';
 function App() {
   let [clickedResume, setClickedResume] = useState(false);
 
+
   // Possible bugs
       // giving link to address of pdf
       // doesn't contain any info from pages / just general PDF?
@@ -25,6 +25,7 @@ function App() {
   // Resume Download link.
   const DownloadDoc = () => (
     <Document file={resume}>
+      <Page pageNumber={1} renderAnnotationLayer={true} />
     </Document>
   )
 
