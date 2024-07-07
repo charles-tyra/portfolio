@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import { Document, Page, PDFDownloadLink } from '@react-pdf/renderer';
 
 import Interactive from './components/InteractiveDiv';
 import ProjectsDiv from './components/InteractiveDiv/ProjectsDiv';
@@ -24,21 +23,13 @@ function App() {
 
   // Resume Download link.
   const DownloadDoc = () => (
-    <Document a>
-      <Page pageNumber={1} renderAnnotationLayer={true}>
-        
-      </Page>
-    </Document>
+    <div id='resume-download-button'>
+      <a href={resume} download="charles_tyra_resume" target='_blank'>
+        click-to-download
+      </a>
+    </div>
   )
 
-  const DownloadResumeButton = () => (
-    <div id='resume-download-button'>
-      <PDFDownloadLink document={<DownloadDoc />} fileName="charlestyraresume.pdf">
-        {({ blob, url, loading, error }) => (loading ? 'truthfully loading..' : 'click-to-download')}
-      </PDFDownloadLink>
-    </div >
-  )
-  
   //Change RESUME - use to check
   // const backgroundImageObject = {
   //   DEFAULT: background,
@@ -86,7 +77,7 @@ function App() {
           </div>
 
           <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/>
-          {clickedResume ? <DownloadResumeButton /> : null}
+          {clickedResume ? <DownloadDoc /> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
 
           <ProjectsDiv />
