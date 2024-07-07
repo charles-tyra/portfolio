@@ -24,8 +24,10 @@ function App() {
 
   // Resume Download link.
   const DownloadDoc = () => (
-    <Document file={resume}>
-      <Page pageNumber={1} renderAnnotationLayer={true} />
+    <Document a>
+      <Page pageNumber={1} renderAnnotationLayer={true}>
+        
+      </Page>
     </Document>
   )
 
