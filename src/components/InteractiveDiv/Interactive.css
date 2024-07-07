@@ -42,7 +42,7 @@
    width: calc(100% / 64);
    height: calc(100% / 36);
 
-   border: 2px solid black;
+   border: 1px solid black;
    border-top-left-radius: 6px;
    background: white;
 }
