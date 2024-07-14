@@ -12,10 +12,11 @@ function TripItDescriptionDiv() {
             </div>
             <div id='trip-it-line' />
          </div>
-         &emsp; MERN app where friends can collaborate to create, plan, and make decisions about group travel.
-         Implemented Agile methodology through daily standups to discuss task updates and roadblocks to create an efficient workflow and communication between frontend and backend team.
-         Outlined and architected the web application as the Frontend Lead, using modular React components - ensured consistency in design and eliminated prop drilling and coupling.
-         Designed the document layout using a non-relational database (MongoDB) to persist user’s trips and events, minimizing unnecessary queries to the database.
+         Designed a bespoke “travel-themed” user interface (UI) playing on the idea of postcards for a collaborative trip planning web application including manually drafting assets to ensure consistent aesthetics and spacing when rendered on the frontend.
+         <br/>
+         Adopted an agile workflow for a highly optimized development sprint including daily standups to identify any challenges or blockers along with git for version control to meet a 10-day deadline.
+         <br/>
+         Leveraged strong coding knowledge and extensive detail work to navigate the team codebase conducting review, troubleshooting, and debugging for streamlining project sprint. 
       </div>
    )
 }
