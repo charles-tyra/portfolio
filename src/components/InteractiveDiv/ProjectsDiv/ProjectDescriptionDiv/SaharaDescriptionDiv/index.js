@@ -12,11 +12,10 @@ function SaharaDescriptionDiv() {
             </div>
             <div id='sahara-line' />
          </div>
-         &emsp; Fullstack Amazon clone where people can create a user account, search and review products, add them to cart, and purchase them
-         Leveraged Rails backend validations to ensure user’s privacy, providing in-depth error handling for both sign-up and sign-in functionality.
-         Developed backend search functionality, implementing Active Record to filter a string pulled from Frontend Input resulting in a faster, more specific query to the database.
-         Created AWS S3 Buckets to store images, and PostgreSQL to store products and user data improving the speed and future scalability of the project.
-         Maximized advanced CSS selectors to refactor an outdated component and successfully replicate Amazon’s style pixel-perfectly.
+         &emsp; Crafted a truly pixel-perfect Amazon clone including reverse engineering particular digital assets from the proprietary codebase to ensure a heavily accurate, detailed recreation of the early 2023 website.
+         <br/>
+         &emsp; Customized CSS selectors for dynamic and resizable website visuals to adhere to accessibility and user experience best practices.
+         Utilized a Ruby on Rails backend paired with a React.js frontend in order to build a fully deployed full-stack website with AWS(S3) and PostgresQL bucket storage for full CRUD functionality across the app.
       </div>
    )
 }
