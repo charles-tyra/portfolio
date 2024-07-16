@@ -12,11 +12,9 @@ function TripItDescriptionDiv() {
             </div>
             <div id='trip-it-line' />
          </div>
-         Designed a bespoke “travel-themed” user interface (UI) playing on the idea of postcards for a collaborative trip planning web application including manually drafting assets to ensure consistent aesthetics and spacing when rendered on the frontend.
-         <br/>
-         <br/>
-         &emsp; Adopted an agile workflow for a highly optimized development sprint including daily standups to identify any challenges or blockers along with git for version control to meet a 10-day deadline.
-         Leveraged strong coding knowledge and extensive detail work to navigate the team codebase conducting review, troubleshooting, and debugging for streamlining project sprint. 
+         <div id='trip-it-description-box'>
+            A travel-planning web app allowing users to make trip decisions asynchronously. I designed the bespoke “travel-themed” user interface (UI) playing on the idea of postcards along with reviewing and debugging code for the successful deployment of this collaborative project.
+         </div>
       </div>
    )
 }
