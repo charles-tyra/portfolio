@@ -43,3 +43,8 @@
    border-top: 1px solid black;
    width: 380px;
 }
+
+#sahara-description-box {
+   padding: 15px;
+   padding-top: 13px;
+}

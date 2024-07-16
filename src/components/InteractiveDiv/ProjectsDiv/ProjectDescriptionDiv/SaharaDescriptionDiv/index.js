@@ -12,11 +12,9 @@ function SaharaDescriptionDiv() {
             </div>
             <div id='sahara-line' />
          </div>
-         Crafted a truly pixel-perfect Amazon clone including reverse engineering particular digital assets from the proprietary codebase to ensure a heavily accurate, detailed recreation of the early 2023 website.
-         <br/>
-         <br/>
-         &emsp; Customized CSS selectors for dynamic and resizable website visuals to adhere to accessibility and user experience best practices.
-         Utilized a Ruby on Rails backend paired with a React.js frontend in order to build a fully deployed full-stack website with AWS(S3) and PostgresQL bucket storage for full CRUD functionality across the app.
+         <div id='sahara-description-box'>
+            A faithful re-render of the Amazon e-commerce website with an “Animal Crossing” product theme. Replicating proprietary assets required reverse engineering spec details from the original codebase. A perfect example of the lengths I’m willing to go to achieve a specific look and feel for the frontend.
+         </div>
       </div>
    )
 }
