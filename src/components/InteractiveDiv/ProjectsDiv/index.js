@@ -4,7 +4,7 @@ import './ProjectsDiv.css';
 import Interactive from "..";
 
 function ProjectsDiv() {
-   let [project, setProject] = useState('SAHARA');
+   let [project, setProject] = useState('TRIPIT');
    let [showProjectInfo, setShowProjectInfo] = useState(false);
    let [clicked, setClicked] = useState(false);
 
@@ -23,24 +23,24 @@ function ProjectsDiv() {
 
    return (
       <>
-         {project === 'SAHARA'
+         {project === 'TRIPIT'
             ?
                <>
                   <Interactive iD={'trip-it-div'} textBox={'project-trip-it'} clickedState={clicked} setClickedState={setClicked} />
-                  {clicked ? <div id="more-info-sahara" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br />-<br />info</div> : null}
+                  {clicked ? <div id="more-info-trip-it" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br />-<br />info</div> : null}
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
-                  <button id='sahara-right-button' className='on-click-button' onClick={handleSetTripIt}> {'>'}</button>
+                  <button id='sahara-right-button' className='on-click-button' onClick={handleSetSahara}> {'>'}</button>
                </>
             : 
                null
          }
-         {project === 'TRIPIT'
+         {project === 'SAHARA'
             ?
                <>
                   <Interactive iD={'sahara-div'} textBox={'project-sahara'} project={project} clickedState={clicked} setClickedState={setClicked} />
-                  {clicked ? <div id="more-info-trip-it" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br/>-<br/>info</div> : null}
+                  {clicked ? <div id="more-info-sahara" onClick={() => setShowProjectInfo(!showProjectInfo)}>more<br/>-<br/>info</div> : null}
                   {showProjectInfo ? <Interactive iD={'description-div'} textBox={'project-info'} project={project} /> : null}
-                  <button id='tripit-left-button' className='on-click-button' onClick={handleSetSahara}> {'<'} </button>
+                  <button id='tripit-left-button' className='on-click-button' onClick={handleSetTripIt}> {'<'} </button>
                </>
             : 
                null

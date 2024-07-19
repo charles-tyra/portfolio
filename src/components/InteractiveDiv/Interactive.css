@@ -31,7 +31,7 @@
    cursor: help;
 
    margin-top: calc(600% / 36);
-   margin-left: calc(2200% / 64);
+   margin-left: calc(3600% / 64);
 
    display: flex;
    align-items: center;
@@ -51,8 +51,9 @@
    position: absolute;
    cursor: help;
 
+
    margin-top: calc(600% / 36);
-   margin-left: calc(3600% / 64);
+   margin-left: calc(2200% / 64);
 
    display: flex;
    align-items: center;
