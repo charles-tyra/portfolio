@@ -14,19 +14,19 @@
    font-size: 12px;
 }
 
-#project-description-links {
+#project-description-links-sahara {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-   width: 106px;
+   justify-content: space-around;
+   width: 125px;
 
-   margin-left: 9px;
+   margin-left: 6px;
    margin-bottom: 19px;
 
    font-size: 10px;
 }
 
-#project-description-links>a {
+#project-description-links-sahara>a {
    color: black;
 }
 
