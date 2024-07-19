@@ -17,10 +17,10 @@
 #project-description-links {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-   width: 106px;
+   justify-content: space-around;
+   width: 112px;
 
-   margin-left: 9px;
+   margin-left: 4px;
    margin-bottom: 19px;
 
    font-size: 10px;
