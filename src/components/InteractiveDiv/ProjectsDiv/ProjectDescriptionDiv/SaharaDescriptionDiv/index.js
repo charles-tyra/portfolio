@@ -12,6 +12,8 @@ function SaharaDescriptionDiv() {
             </div>
             <div id='sahara-line' />
          </div>
+
+         {/* TIGHTEN UP */}
          <div id='sahara-description-box'>
             A faithful re-render of the Amazon e-commerce website with an “Animal Crossing” product theme. Replicating proprietary assets required reverse engineering spec details from the original codebase. A perfect example of the lengths I’m willing to go to achieve a specific look and feel for the frontend.
          </div>
