@@ -15,7 +15,7 @@ function TripItDescriptionDiv() {
          <div id='trip-it-description-box'>
             A travel-planning web app allowing users to make trip decisions asynchronously.
             I designed the bespoke “travel-themed” user interface (UI) playing on the idea of postcards with complete a webpage path outline.
-            When finished, I headed reviewing and debugging code for the successful deployment of this collaborative project.
+            When finished, I headed the review and debug of code for successful deployment of this collaborative project.
          </div>
       </div>
    )
