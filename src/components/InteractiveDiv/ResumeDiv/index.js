@@ -15,7 +15,7 @@ function ResumeDiv({ resume }) {
    //Sets worker for PDF
    pdfjs.GlobalWorkerOptions.workerSrc = new URL(
       'pdfjs-dist/build/pdf.worker.min.js',
-      'https://charles-tyra.github.io/portfolio/src/components/InteractiveDiv/ResumeDiv/index.js',
+      import.meta.url,
    ).toString();
 
    console.log(import.meta.url);
