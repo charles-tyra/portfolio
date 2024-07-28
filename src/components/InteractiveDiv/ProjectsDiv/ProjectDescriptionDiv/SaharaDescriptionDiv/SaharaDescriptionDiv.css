@@ -37,6 +37,9 @@
    height: 27px;
 
    justify-content: space-between;
+
+
+border-bottom: 1px solid black;
 }
 
 #sahara-line {
@@ -48,4 +51,6 @@
    padding: 15px;
    padding-top: 12px;
    line-height: 1.5;
+
+   border-right: 1px solid black;
 }
