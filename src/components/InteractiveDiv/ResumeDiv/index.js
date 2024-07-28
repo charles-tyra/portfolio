@@ -15,8 +15,10 @@ function ResumeDiv({ resume }) {
    //Sets worker for PDF
    pdfjs.GlobalWorkerOptions.workerSrc = new URL(
       'pdfjs-dist/build/pdf.worker.min.js',
-      import.meta.url,
+      'https://charles-tyra.github.io/portfolio/src/components/InteractiveDiv/ResumeDiv/index.js',
    ).toString();
+
+   console.log(import.meta.url);
 
    // useEffect(() => {
    //    setResumeWidth(window.innerWidth * 20 / 64)
