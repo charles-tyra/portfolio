@@ -13,10 +13,11 @@ function ResumeDiv({ resume }) {
    let [resumeWidth, setResumeWidth] = useState(window.innerWidth * 18 / 64);
 
    //Sets worker for PDF
-   pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-      'pdfjs-dist/build/pdf.worker.min.js',
-      import.meta.url,
-   ).toString();
+   // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+   //    'pdfjs-dist/build/pdf.worker.min.js',
+   //    import.meta.url,
+   // ).toString();
+   pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
    console.log(import.meta.url);
 
