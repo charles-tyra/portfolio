@@ -9,12 +9,12 @@ import ProjectDescriptionDiv from "./ProjectsDiv/ProjectDescriptionDiv";
 
 function Interactive({ iD, textBox, project = null, clickedState = null, setClickedState = null }) {
    let [clicked, setClicked] = useState(false);
-   let [currInteractive, setCurrInteractive] = useState('none');
 
    if(clickedState !== null && setClickedState !== null)
       [clicked, setClicked] = [clickedState, setClickedState];
 
-   const changeDiv = () => {
+   const changeDiv = (e) => {
+      console.log(e)
       setClicked(!clicked);
    }
 
