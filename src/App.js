@@ -34,9 +34,6 @@ function App() {
   // };
 
   const currentBackground = background;
-
-  // Set up a switch with Interactive Divs - general check if anything is clicked 
-  //      Will it be available for only a single clicked at a time -- check
   
   return (
     <div id='totalframe'>
