@@ -10,8 +10,10 @@ function TripItDescriptionDiv() {
                <div className="vertical-line" />
                <a href='https://github.com/ShawnaEHartley/trip-it'>github repo</a>
             </div>
+            
             <div id='trip-it-line' />
          </div>
+
          <div id='trip-it-description-box'>
             A travel-planning web app allowing users to make trip decisions asynchronously.
             I designed the bespoke “travel-themed” user interface (UI) playing on the idea of postcards with complete a webpage path outline.

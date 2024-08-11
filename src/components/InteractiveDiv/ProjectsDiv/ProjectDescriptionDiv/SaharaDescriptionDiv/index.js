@@ -10,6 +10,7 @@ function SaharaDescriptionDiv() {
                <div className="vertical-line" />
                <a href='https://github.com/charles-tyra/sahara'>github repo</a>
             </div>
+            
             <div id='sahara-line' />
          </div>
 
