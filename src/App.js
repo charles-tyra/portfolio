@@ -7,11 +7,6 @@ import resume from './assets/charlestyraresume.pdf';
 
 import background from './assets/photo12.jpg';
 
-// import resumeImg from './assets/photo23.jpg';
-// import linksImg from './assets/photo5.jpg';
-// import philosophyImg from './assets/photo6.jpg';
-// import projectsImg from './assets/photo27.jpg';
-
 function App() {
   let [clickedResume, setClickedResume] = useState(false); 
 
@@ -23,24 +18,13 @@ function App() {
       </a>
     </div>
   )
-
-  //Change RESUME - use to check
-  // const backgroundImageObject = {
-  //   DEFAULT: background,
-  //   RESUME: resumeImg,
-  //   LINKS: linksImg,
-  //   PROJECTS: projectsImg,
-  //   PHILOSOPHY: philosophyImg
-  // };
-
-  const currentBackground = background;
   
   return (
     <div id='totalframe'>
       <div id='body-container'>
         <div id='body'>
           <div id='background-container'>
-            <img id='background-img' src={currentBackground} />
+            <img id='background-img' src={background} />
           </div>
 
           {/* Setting up background color for transparent link area */}
@@ -57,7 +41,6 @@ function App() {
 
           <div id='charles-tyra'>
             <div id='charles-tyra-links'>
-              {/* <img id='links-img' src={linksImg}/> */}
               <a href='https://www.linkedin.com/in/charlesttyra-ny'>linkedIn</a>
               <div className='vertical-line' />
               <a href='https://github.com/charles-tyra'>github</a>
@@ -67,6 +50,7 @@ function App() {
             Charles Tyra
           </div>
 
+          {/* Set up for resume */}
           <Interactive iD={'resume-div'} textBox={'resume'} project={resume} clickedState={clickedResume} setClickedState={setClickedResume}/>
           {clickedResume ? <DownloadPDFButton /> : null}
           <Interactive iD={'philosophy-div'} textBox={'philosophy'} />
