@@ -13,8 +13,8 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
    if(clickedState !== null && setClickedState !== null)
       [clicked, setClicked] = [clickedState, setClickedState];
 
+   // Look into onMouseCursor style for check.
    const changeDiv = (e) => {
-      console.log(e)
       setClicked(!clicked);
    }
 
