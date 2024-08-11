@@ -27,7 +27,7 @@ function App() {
             <img id='background-img' src={background} />
           </div>
 
-          {/* Setting up background color for transparent link area */}
+          {/* Setting up white background to continue for transparent link area */}
           <div id='ct-background-left' />
           <div id='ct-background-top' />
           <div id='ct-background-right' />
