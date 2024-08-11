@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.938e6217.css",
-    "main.js": "/portfolio/static/js/main.9f13bd00.js",
+    "main.js": "/portfolio/static/js/main.6d95219f.js",
     "static/media/charlestyraresume.pdf": "/portfolio/static/media/charlestyraresume.092b035ad67c6a8b0352.pdf",
     "static/media/sahara_screenshot.png": "/portfolio/static/media/sahara_screenshot.93171dc2ed649402120e.png",
     "static/media/tripItSplashPage.png": "/portfolio/static/media/tripItSplashPage.c4b8162dbeed6f238d1b.png",
     "static/media/photo12.jpg": "/portfolio/static/media/photo12.d6ac4dce880bdafd855c.jpg",
     "index.html": "/portfolio/index.html",
     "main.938e6217.css.map": "/portfolio/static/css/main.938e6217.css.map",
-    "main.9f13bd00.js.map": "/portfolio/static/js/main.9f13bd00.js.map"
+    "main.6d95219f.js.map": "/portfolio/static/js/main.6d95219f.js.map"
   },
   "entrypoints": [
     "static/css/main.938e6217.css",
-    "static/js/main.9f13bd00.js"
+    "static/js/main.6d95219f.js"
   ]
 }
