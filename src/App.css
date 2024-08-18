@@ -93,12 +93,11 @@ table {
   top: calc(100% / 36);
   right: calc(100% / 64);
 
-  font-size: 14px;
-  letter-spacing: 1.08px;
+  font-size: 8px;
+  letter-spacing: 3.5px;
   color: rgb(42, 41, 41);
 
   border: 1px solid black;
-  font-family: "mr-eaves-modern", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
