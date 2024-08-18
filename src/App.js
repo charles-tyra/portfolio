@@ -47,7 +47,7 @@ function App() {
               <div className='vertical-line' />
               <a href="mailto:charlesttyra@gmail.com">contact</a>
             </div>
-            Charles Tyra
+            charlesTyra
           </div>
 
           {/* Set up for resume */}
