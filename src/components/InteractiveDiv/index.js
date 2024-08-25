@@ -15,7 +15,8 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
 
    // Look into onMouseCursor style for check.
    const changeDiv = (e) => {
-      console.log(e);
+      const { cursor } = getComputedStyle(e.target);
+      console.log(cursor);
       setClicked(!clicked);
    }
 
