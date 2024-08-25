@@ -19,12 +19,8 @@ function Interactive({ iD, textBox, project = null, clickedState = null, setClic
       setClicked(!clicked);
    }
 
-   const noClick = (e) => {
-      setClicked(!clicked);
-   }
-
    return (
-      <div id={iD} className="interactive-container" onDrag={noClick} onClick={changeDiv}>
+      <div id={iD} className="interactive-container" onClick={changeDiv}>
          {clicked && iD === 'resume-div'
             ? 
                <ResumeDiv resume={project} />
