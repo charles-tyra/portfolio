@@ -7,6 +7,8 @@ import resume from './assets/charlestyraresume.pdf';
 
 import background from './assets/photo12.jpg';
 
+// HAPPY
+
 function App() {
   let [clickedResume, setClickedResume] = useState(false); 
 
