@@ -10,6 +10,7 @@ import background from './assets/photo12.jpg';
 // HAPPY
 // BIRTHDAY
 // MOLLY
+// MACGILBERT
 
 function App() {
   let [clickedResume, setClickedResume] = useState(false); 
